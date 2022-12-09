@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/icons/nirlogo.png" />
+
+  <!-- Normalize CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Tippy CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- BoxIcons CSS CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- VenoBox CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css"
+    integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Splidejs CSS CDN -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/css/themes/splide-default.min.css">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/staff-directory.css" />
+
+  <title>Staff Directory | National Identification Registry (NIR)</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="header" class="container">
+    <div class="header-icons">
+      <div class="header-email">
+        <i class="fa-solid fa-envelope-circle-check"></i><a href="info@nir.gov.lr">info@nir.gov.lr</a>
+      </div>
+      <div class="header-phone">
+        <i class="fa-solid fa-phone"></i><span>+231881-490-759 / +231770-490-759</span>
+      </div>
+      <div class="header-location">
+        <i class="fa-solid fa-location-dot"></i><span>Allison Street, Congo Town behind the YWCA building.</span>
+      </div>
+      <div class="header-facebook">
+        <i class="fa-brands fa-facebook-square"></i>
+      </div>
+      <div class="header-linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="header-nir-logo">
+        <a href="index.html">
+          <img src="./assets/images/icons/nirlogo.png" width="100px" alt="NIR Logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h2>Republic of Liberia</h2>
+        <h3>National Identification Registry</h3>
+      </div>
+      <div id="coat-of-arms">
+        <img src="./assets/images/icons/coat-arms.png" width="150px" alt="Liberia Coat of Arms" />
+      </div>
+    </div>
+  </header>
+  <!-- End of Header Section -->
+
+  <!-- Navigation Section -->
+  <nav id="nav" class="container-fluid">
+    <div class="nav-nir-logo">
+      <a href="index.html">
+        <img src="./assets/images/icons/nirlogo.png" width="70px" alt="NIR Logo" />
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About NIR</a>
+        <ul class="dropdown-menu fade-up">
+          <li><a class="dropdown-item" href="board-of-registrars.html">Board of Registrars</a></li>
+          <li><a class="dropdown-item" href="mamagement-team.html">Management Team</a></li>
+          <li><a class="dropdown-item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item" href="staff-directory.html">Staff Directory</a></li>
+          <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Opportunities</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li>
+        <a href="https://nin.nir.gov.lr/" target="_blank"><span>eVerication<i
+              class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+      </li>
+    </ul>
+    <span class="search-box">
+      <input type="search" placeholder="Search....">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </span>
+  </nav>
+  <!-- End of Navigation Section -->
+
+  <!-- Main Section -->
+  <main>
+    <section id="staff-directory">
+      <div class="nir container-fluid" data-aos="fade-up">
+        <small>We're Families!</small>
+        <h1>Meet Our Teams</h1>
+        <h3>Staff Directory</h3>
+      </div>
+      <div class="nir-teams container">
+        <div class="nir-teams-meambers" data-aos="zoom-in-up">
+          <h2 data-aos="fade-up">Executive Team</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, vel dolore? Quisquam qui quasi quis
+            sint,
+            in dignissimos nulla architecto possimus corporis laboriosam dicta debitis id. Incidunt, voluptatem harum?
+            Iusto.</p>
+          <div class="nir-teams-member">
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper1">
+                <img src="./assets/images/staff-gallery/jtn1-removebg-preview.png" width="200px" alt="">
+              </div>
+              <h3>Hon. J. Tiah Nagbe</h3>
+              <h5>Executive Director</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper1">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Patrick T. Nugba</h3>
+              <h5>Special Assistant</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper1">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Bendu M. Dunor</h3>
+              <h5>Secretary</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper1">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Daniel Sloh Sargbe</h3>
+              <h5>Media Relations Officer</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nir-teams-meambers" data-aos="zoom-in-up">
+          <h2>Techical Services Team</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, vel dolore? Quisquam qui quasi quis
+            sint,
+            in dignissimos nulla architecto possimus corporis laboriosam dicta debitis id. Incidunt, voluptatem harum?
+            Iusto.</p>
+          <div class="nir-teams-member">
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper2">
+                <img src="./assets/images/staff-gallery/zeze-removebg-preview.png" width="165px" alt="">
+              </div>
+              <h3>Zeze R. Reed</h3>
+              <h5>Deputy Executive Director</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper2">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>D. Franklyn Johnson</h3>
+              <h5>IT Manager</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper2">
+                <img src="./assets/images/staff-gallery/dada-removebg-preview.png" width="400px" alt="">
+              </div>
+              <h3>Mesheal D. Somah Sr.</h3>
+              <h5>IT Coordinator</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper2">
+                <img src="./assets/images/staff-gallery/joseph-deema-removebg-preview.png" width="230px" alt="">
+              </div>
+              <h3>Joseph Deema</h3>
+              <h5>Director, Technical Services</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nir-teams-meambers" data-aos="zoom-in-up">
+          <h2>Administrative Team</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, vel dolore? Quisquam qui quasi quis
+            sint,
+            in dignissimos nulla architecto possimus corporis laboriosam dicta debitis id. Incidunt, voluptatem harum?
+            Iusto.</p>
+          <div class="nir-teams-member">
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper3">
+                <img src="./assets/images/staff-gallery/mpayn-removebg-preview.png" width="175px" alt="">
+              </div>
+              <h3>Hon. Marcus G. W. Pyne</h3>
+              <h5>Deputy Executive Director</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper3">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Rolando K. Woheel</h3>
+              <h5>Comptroller</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper3">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Momolu V. Sirleaf</h3>
+              <h5>Director of Procurement</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+            <div class="nir-teams-member-item">
+              <div class="img-wrapper3">
+                <img src="./assets/images/staff-gallery/portfolio.png" width="150px" alt="">
+              </div>
+              <h3>Alberta T. Dagbe</h3>
+              <h5>Human Resources Director</h5>
+              <div>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span>Email: dsomah@gmail.com</span>
+              </div>
+              <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>Cell: +231-886-766-156</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- End of Main Section -->
+
+  <!-- Footer Section -->
+  <footer id="footer-section">
+    <!-- Useful Links Section -->
+    <hr>
+    <p>The information herein is the sole property of the National Identification Registry.<br> Please contact us
+      at our head office.</p>
+    <div class="useful-links">
+      <div class="useful-links-items">
+        <div class="useful-links-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>NIR HQ</span>
+          <p>Allison Street, Congo Town.<br>Behind the YWCA building.</p>
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <span>Email: </span><a class="email" href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr
+          </a>
+          <br>
+          <i class="fa-solid fa-phone"></i>
+          <span>Cell: </span>+231-770-490-759
+        </div>
+        <div class="useful-links-item">
+          <h3>Useful Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Announcements</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Act of Legislation-NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">eVerification</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Staff Directory</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="faq.html">FAQ</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Recent Publications</h3>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/jtn1.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/zeze.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="useful-links-item">
+          <h3>Quick Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="index.html">Home</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="about.html">About NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="services.html">Our Services</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Join Our Newsletter</h3>
+          <p>Subscribe to our Newsletter. Stay up to date with <br>latest news from NIR.</p>
+          <input type="email" placeholder="Enter Your Email Address">
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+    <!-- Useful Links Section -->
+    <div class="copy-right">
+      <div class="copy-right-text">
+        <p>&copy; 2022 NIR. All rights reserved.</p>
+        <p><em>Build & Design By: </em><a href="#"><strong>Mesheal D. Somah Sr.</strong></a></p>
+      </div>
+      <div class="copy-right-social-links">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+
+  <!-- jQuery JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Moment JS CDN -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"
+      integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <!-- Bootstrap JavaScript Bundle with Popper JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Tippy JS CDN -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@5"></script>
+
+  <!-- Splidejs JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
+
+  <!-- Splide Auto Scroll Extension JS CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+  <!-- Owl Caraousel JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- VenoBox JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js"
+    integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Waypoints JS CDS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- CounterUp JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jSignature JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/jSignature.min.js"
+    integrity="sha512-lZ7GJNAmaXw7L4bCR5ZgLFu12zSkuxHZGPJdIoAqP6lG+4eoSvwbmKvkyfauz8QyyzHGUGVHyoq/W+3gFHCLjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Modernizr JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Flash Canvas JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/flashcanvas.min.js"
+    integrity="sha512-FHZAgss3MwQeG+5czQOajoTUD8T+TKausbF/Nflz6APNsefnY2IEB94/nFmvGbgtp91a2fjLtLTaLCI6nN1I+A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main JS File -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/form-type.js"></script>
+
+  <!-- GetButton.io widget -->
+  <!-- <script type="text/javascript">
+      (function () {
+        var options = {
+          facebook: "1231117973623077", // Facebook page ID
+          facebook_frame: true, // Open Facebook chat at frame
+          whatsapp: "+231770442816", // WhatsApp number
+          call_to_action: "Chat with us", // Call to action
+          button_color: "#008000", // Color of button
+          position: "left", // Position may be 'right' or 'left'
+          order: "whatsapp,facebook", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script> -->
+  <!-- /GetButton.io widget -->
+
+  <!-- Scroll To Top -->
+  <a href="#header" data-scroll class="dmtop global-radius" data-tippy-content="Back To Top"><i
+      class="fa-solid fa-angle-up"></i></a>
+
+  <!-- CRISP Live Chat JS Link -->
+  <script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "63f32c7d-e01f-4c9b-a5b0-f396e2c72544"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+
+  <!-- AOS Animate on Scroll Initializer -->
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+
+</html>

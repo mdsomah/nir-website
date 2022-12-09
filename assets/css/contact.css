@@ -1,0 +1,209 @@
+@import url("./main.css");
+
+#contact-us {
+  margin-top: 200px;
+}
+
+#contact-us h1 {
+  font-size: var(--h1Font);
+  color: green;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#contact-us p {
+  font-size: var(--textFont);
+  text-align: center;
+  line-height: 1.6rem;
+}
+
+#contact-us .contact-us-map {
+  margin-top: 60px;
+}
+
+#contact-us .contact-us-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  gap: 20px;
+}
+
+#contact-us .contact-us-items .contact-us-content i {
+  font-size: 25px;
+  color: green;
+  margin-right: 6px;
+}
+
+#contact-us .contact-us-items .contact-us-content p {
+  text-align: left;
+}
+
+#contact-us .contact-us-items .contact-us-content span {
+  font-size: 20px;
+  color: #494646;
+  font-weight: 600;
+}
+
+#contact-us .contact-us-items .contact-us-content a {
+  color: #0575e6;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group input {
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .form-group-subject input {
+  width: 96%;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group textarea {
+  width: 96%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group {
+  position: relative;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group input {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding-top: 8px;
+  padding-left: 10px;
+  padding-right: 60px;
+  background: transparent;
+  outline: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group textarea {
+  border: 1px solid black;
+  border-radius: 3px;
+  background: transparent;
+  outline: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .first-input,
+#contact-us .contact-us-items .contact-us-form .form-group .second-input {
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .first-input:focus~.first-label {
+  top: -13px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .second-input:focus~.second-label {
+  top: -13px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .third-input:focus~.third-label {
+  top: 82px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group textarea:focus~.text-area-label {
+  top: 177px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .first-label {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  transition: top 0.5s;
+  background-color: #fcfcfc;
+  pointer-events: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .second-label {
+  position: absolute;
+  top: 10px;
+  right: 180px;
+  transition: top 0.5s;
+  background-color: #fcfcfc;
+  pointer-events: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .third-label {
+  position: absolute;
+  top: 103px;
+  left: 20px;
+  transition: top 0.5s;
+  background-color: #fcfcfc;
+  pointer-events: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .text-area-label {
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  transition: top 0.5s;
+  background-color: #fcfcfc;
+  pointer-events: none;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group .form-group-subject input {
+  margin-top: 25px;
+  width: 95%;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group textarea {
+  margin-top: 25px;
+  width: 95%;
+  padding-top: 8px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group button {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: green;
+  color: #fff;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00f260;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group button {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+}
+
+#contact-us .contact-us-items .contact-us-form .form-group button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00f260;
+}
+
+#contact-us .import-text {
+  margin-top: 200px;
+}
+
+#contact-us .contact-us-details {
+  text-align: center;
+  font-size: var(--textFont);
+  margin-top: 50px;
+}

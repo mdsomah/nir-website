@@ -1,0 +1,317 @@
+@import url("./main.css");
+
+/* Residents Application Form */
+#resident-card-services {
+  margin-top: 200px;
+}
+
+#resident-card-services h1 {
+  font-size: var(--h1Font);
+  color: green;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#resident-card-services h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#resident-card-services p {
+  font-size: var(--textFont);
+  text-align: center;
+  line-height: 1.6rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+#resident-card-services .resident-card-services-items {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item i {
+  color: green;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item {
+  position: relative;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item .resident-card-services-item-benefits .resident-card-services-item-benefits-lists {
+  text-align: start;
+  position: absolute;
+  left: 810px;
+}
+
+#resident-card-services .resident-card-services-items .resident-card-services-item .resident-card-services-item-benefits .resident-card-services-item-benefits-lists i {
+  font-size: 18px;
+}
+
+#resident-card-services .card-type {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#resident-card-services .card-type h5 {
+  font-size: var(--h5Font);
+  color: #0575e6;
+}
+
+#resident-card-services .card-type p {
+  font-size: var(--textFont);
+  word-wrap: break-word;
+  word-break: break-all;
+  line-height: 1.6rem;
+  margin-top: 20px;
+}
+
+#resident-card-services .card-type select {
+  font-size: var(--textFont);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 35px;
+}
+
+/* Diplay none properties for various form */
+#resident-card-services .card-type .new-enrollment,
+#resident-card-services .card-type .replacement,
+#resident-card-services .card-type .renewal {
+  display: none;
+  background-color: #ffffff;
+}
+
+#resident-card-services .card-type .new-enrollment {
+  width: 1000px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #494646;
+  margin-top: 50px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-header .form-title h5 {
+  font-size: var(--h5Font);
+  color: #494646;
+}
+
+#resident-card-services .card-type .new-enrollment .form-header .form-title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+#resident-card-services .card-type .new-enrollment .mandatory-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#resident-card-services .card-type .new-enrollment .mandatory-text h3 {
+  font-size: 20px;
+  color: #494646;
+  margin-top: 30px;
+}
+
+#resident-card-services .card-type .new-enrollment .mandatory-text h5 {
+  font-size: 14px;
+  color: red;
+  margin-top: 30px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body {
+  text-align: start;
+  padding: 0 20px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body h5 {
+  font-size: var(--h5Font);
+  color: #494646;
+  margin-top: 30px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body label {
+  font-weight: 600;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body input {
+  border: none;
+  background: none;
+  margin: 15px 5px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body input:focus {
+  border: 2px solid #0575e6;
+  border-radius: 3px;
+  background: none;
+  outline: none;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body [type="text"] {
+  width: 31%;
+  border-bottom: 1px solid #0575e6;
+  padding: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body [placeholder="Enter Your Current Address"] {
+  width: 97%;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .locality input {
+  width: 13%;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .radio-options span {
+  margin-right: 74px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .radio-options [type="text"] {
+  width: 10%;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .marital-status span {
+  margin-right: 60px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .contacts span input {
+  width: 33%;
+  border-bottom: 1px solid #0575e6;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .citizenship span {
+  margin-right: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .citizenship div input {
+  width: 50%;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .country span {
+  margin-right: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .country div input {
+  width: 40%;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .card-status-type {
+  margin-top: 20px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .card-status-type label {
+  margin-bottom: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .card-status-type select {
+  margin-bottom: 25px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .document-attached span {
+  margin-right: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .introducer {
+  border: 3px solid #494646;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .introducer .introducer-contact input {
+  width: 35%;
+  border-bottom: 1px solid #0575e6;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .introducer .introducer-contact span {
+  margin-right: 10px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .disclaimer {
+  margin-top: 20px;
+}
+
+/* #resident-card-services .card-type .new-enrollment .form-body .signatures input {
+  width: 35%;
+} */
+
+#resident-card-services .card-type .new-enrollment .form-body .signatures {
+  margin-top: 20px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .signatures span {
+  margin-right: 178px;
+}
+
+#resident-card-services .card-type .new-enrollment .form-body .signatures div {
+  margin-left: 29px;
+}
+
+/* Form Submit Button */
+#new-enrollment button,
+#replacement button,
+#renewal button {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 35px;
+  background-color: green;
+  color: #fff;
+}
+
+#new-enrollment button:hover,
+#replacement button:hover,
+#renewal button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00f260;
+  transition: ease-in-out 0.3s;
+}
+
+#new-enrollment .reset-form,
+#replacement .reset-form,
+#renewal .reset-form {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 35px;
+  /* background-color: #ff0000;
+  color: #fff; */
+}
+
+#new-enrollment .reset-form:hover,
+#replacement .reset-form:hover,
+#renewal .reset-form:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #db4747;
+  transition: ease-in-out 0.3s;
+}
+
+/* End of Residents Application Form */

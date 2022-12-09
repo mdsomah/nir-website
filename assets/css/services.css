@@ -1,0 +1,17 @@
+@import url("./main.css");
+
+#our-services .services-items .services-item .services-item-benefits .services-item-benefits-lists {
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 40px;
+}
+
+#our-services .services-items .services-item .services-item-benefits .services-item-benefits-lists div {
+  text-align: start;
+  position: relative;
+  left: 35%;
+}
+
+#our-services .services-items .services-item .services-item-benefits .services-item-benefits-lists div i {
+  font-size: 18px;
+}

@@ -1,0 +1,343 @@
+@import url("./main.css");
+
+/* Citizen's Application Form */
+#citzen-card-services {
+  margin-top: 200px;
+}
+
+#citzen-card-services h1 {
+  font-size: var(--h1Font);
+  color: green;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#citzen-card-services h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#citzen-card-services p {
+  font-size: var(--textFont);
+  text-align: center;
+  line-height: 1.6rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+#citzen-card-services .citzen-card-services-items {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item i {
+  color: green;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+}
+
+#citzen-card-services .citzen-card-services-items {
+  margin-bottom: 200px;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item .citzen-card-services-item-benefits {
+  position: relative;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item .citzen-card-services-item-benefits .citzen-card-services-item-benefits-lists {
+  text-align: start;
+  position: absolute;
+  left: 235px;
+}
+
+#citzen-card-services .citzen-card-services-items .citzen-card-services-item .citzen-card-services-item-benefits .citzen-card-services-item-benefits-lists i {
+  font-size: 18px;
+}
+
+#citzen-card-services .card-type {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#citzen-card-services .card-type h5 {
+  font-size: var(--h5Font);
+  color: #0575e6;
+}
+
+#citzen-card-services .card-type p {
+  font-size: var(--textFont);
+  word-wrap: break-word;
+  word-break: break-all;
+  line-height: 1.6rem;
+  margin-top: 20px;
+}
+
+#citzen-card-services .card-type select {
+  font-size: var(--textFont);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 35px;
+}
+
+/* Diplay none properties for various form */
+#citzen-card-services .card-type .new-enrollment,
+#citzen-card-services .card-type .replacement,
+#citzen-card-services .card-type .renewal {
+  display: none;
+  background-color: #ffffff;
+}
+
+#citzen-card-services .card-type .new-enrollment {
+  width: 1000px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #494646;
+  margin-top: 50px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-header .form-title h5 {
+  font-size: var(--h5Font);
+  color: #494646;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-header .form-title h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: green;
+}
+
+#citzen-card-services .card-type .new-enrollment .mandatory-text {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#citzen-card-services .card-type .new-enrollment .mandatory-text h3 {
+  font-size: 20px;
+  color: #494646;
+  margin-top: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .mandatory-text h5 {
+  font-size: 14px;
+  color: red;
+  margin-top: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body {
+  text-align: start;
+  padding: 0 20px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body h5 {
+  font-size: var(--h5Font);
+  color: #494646;
+  margin-top: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body label {
+  font-weight: 600;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body input {
+  border: none;
+  background: none;
+  margin: 15px 5px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body input:focus {
+  border: 2px solid #0575e6;
+  border-radius: 3px;
+  background: none;
+  outline: none;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body [type="text"] {
+  width: 31%;
+  border-bottom: 1px solid #0575e6;
+  padding: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body select.county {
+  border: 1px solid #0575e6;
+  margin-left: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body select.country {
+  border: 1px solid #0575e6;
+  margin-left: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .locality input {
+  width: 10%;
+  margin-right: 30px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body select {
+  border: 1px solid #0575e6;
+  margin-right: 20px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .radio-options span {
+  margin-right: 74px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .radio-options [type="text"] {
+  width: 10%;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .marital-status span {
+  margin-right: 60px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .contacts span input {
+  width: 33%;
+  border-bottom: 1px solid #0575e6;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .citizenship span {
+  margin-right: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .citizenship div input {
+  width: 50%;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .country span {
+  margin-right: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .country div input {
+  width: 40%;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .card-status-type {
+  margin-top: 20px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .card-status-type label {
+  margin-bottom: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .card-status-type select {
+  margin-bottom: 25px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .document-attached span {
+  margin-right: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .introducer {
+  border: 3px solid #494646;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .introducer .introducer-contact input {
+  width: 35%;
+  border-bottom: 1px solid #0575e6;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .introducer .introducer-contact span {
+  margin-right: 10px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .disclaimer {
+  margin-top: 20px;
+}
+
+/* #citzen-card-services .card-type .new-enrollment .form-body .signatures input {
+  width: 35%;
+} */
+
+#citzen-card-services .card-type .new-enrollment .form-body .signatures {
+  margin-top: 20px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .signatures span {
+  margin-right: 178px;
+}
+
+#citzen-card-services .card-type .new-enrollment .form-body .signatures div {
+  margin-left: 29px;
+}
+
+/* Form Submit Button */
+#new-enrollment .form-body button,
+#replacement .form-body button,
+#renewal .form-body button {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 35px;
+  background-color: green;
+  color: #fff;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  left: 330px;
+}
+
+#new-enrollment .form-body button:hover,
+#replacement .form-body button:hover,
+#renewal .form-body button:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #00f260;
+}
+
+#new-enrollment .form-body input.reset-form,
+#replacement .form-body input.reset-form,
+#renewal .form-body input.reset-form {
+  font-size: var(--h5Font);
+  color: #494646;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 35px;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -ms-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  position: relative;
+  left: 330px;
+}
+
+#new-enrollment .form-body input.reset-form:hover,
+#replacement .form-body input.reset-form:hover,
+#renewal .form-body input.reset-form:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #db4747;
+}
+
+/* End of Citizen's Application Form */

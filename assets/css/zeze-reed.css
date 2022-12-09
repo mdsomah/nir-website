@@ -1,0 +1,52 @@
+@import url("./main.css");
+
+#zeze-reed {
+  margin-top: 150px;
+}
+
+#zeze-reed .zeze-reed-porfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item img {
+  border: 1px solid #0575e6;
+  border-radius: 5px;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item h3 {
+  font-size: var(--h3Font);
+  color: green;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item h5 {
+  font-size: var(--h5Font);
+  color: #494646;
+  margin-top: 12px;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item h6 {
+  font-size: var(--h6Font);
+  color: #0575e6;
+  margin-top: 12px;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item i {
+  color: green;
+  margin-right: 18px;
+  margin-top: 12px;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item p {
+  font-size: var(--textFont);
+  line-height: 1.6rem;
+}
+
+#zeze-reed .zeze-reed-porfolio .zeze-reed-porfolio-item-content {
+  font-size: var(--textFont);
+  text-align: center;
+  line-height: 1.6rem;
+  margin-top: 50px;
+}

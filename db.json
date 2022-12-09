@@ -1,0 +1,20 @@
+{
+  "localityOne": [
+    {
+      "rcCode": "03001",
+      "county": "Bomi",
+      "locality": "Baima",
+      "center": "Baima Palava Hut",
+      "electoralDistrict": 1
+    }
+  ],
+  "localityTwo": [
+    {
+      "rcCode": "03002",
+      "county": "Bomi",
+      "locality": "Barmo",
+      "center": "Barmo Palava Hut",
+      "electoralDistrict": 1
+    }
+  ]
+}

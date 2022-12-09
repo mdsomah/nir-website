@@ -1,0 +1,85 @@
+@import url("./main.css");
+
+#management {
+  margin-top: 150px;
+}
+
+#management h1 {
+  font-size: 25px;
+  color: green;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.management .directors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  grid-auto-columns: max-content;
+  padding: 25px;
+  gap: 25px;
+}
+
+.management .directors .directors-img img {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  outline: 2px solid #0575e6;
+  transition: all ease-in-out 0.4s;
+
+}
+
+.management .directors .directors-img img:hover {
+  transform: scale(1.3);
+}
+
+.management .directors .directors-img h3 {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  padding: 10px 0;
+  background: #00f260;
+  background: -webkit-linear-gradient(to top, #0575e6, #00f260);
+  background: linear-gradient(to top, #0575e6, #00f260);
+  font-size: var(--h3Font);
+  margin-top: 50px;
+}
+
+.management .directors .directors-img h5 {
+  font-size: 20px;
+  color: #0575e6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.management .directors .directors-img .fa-brands {
+  color: green;
+  margin-right: 15px;
+}
+
+.management .directors .directors-img .read-more a {
+  text-decoration: none;
+  color: #8d8989;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.management .directors .directors-img .read-more .fa-up-right-from-square {
+  font-size: 18px;
+  color: #8d8989;
+  transition: all .3s ease-in-out;
+}
+
+.management .directors .directors-img .read-more:hover a,
+.management .directors .directors-img .read-more:hover .fa-up-right-from-square {
+  text-decoration: none;
+  color: #0575e6;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 10px;
+  transform: scale(1.1);
+  cursor: pointer;
+}

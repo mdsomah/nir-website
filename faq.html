@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/icons/nirlogo.png" />
+
+  <!-- Normalize CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+  <!-- Bootstrap Date Picker CSS CDN -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+    integrity="sha512-mSYUmp1HYZDFaVKK//63EcZq4iFWFjxSL+Z3T/aCt4IO9Cejm03q3NKKYN6pFQzY0SBOr8h+eCIAZHPXcpZaNw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- BoxIcons CSS CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- VenoBox CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css"
+    integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Splidejs CSS CDN -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/css/themes/splide-default.min.css">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/faq.css" />
+
+  <title>Frequently Ask Questions | National Identification Registry (NIR)</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="header" class="container">
+    <div class="header-icons">
+      <div class="header-email">
+        <i class="fa-solid fa-envelope-circle-check"></i><a
+          href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr</a>
+      </div>
+      <div class="header-phone">
+        <i class="fa-solid fa-phone"></i><span>+231-881-490-759 / +231-770-490-759</span>
+      </div>
+      <div class="header-location">
+        <i class="fa-solid fa-location-dot"></i><span>Allison Street, Congo Town, Behind the YWCA building.</span>
+      </div>
+      <div class="header-facebook">
+        <i class="fa-brands fa-facebook-square"></i>
+      </div>
+      <div class="header-linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="header-nir-logo">
+        <a href="index.html">
+          <img src="./assets/images/icons/nirlogo.png" width="100px" alt="NIR Logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h2>Republic of Liberia</h2>
+        <h3>National Identification Registry</h3>
+      </div>
+      <div id="coat-of-arms">
+        <img src="./assets/images/icons/coat-arms.png" width="150px" alt="Liberia Coat of Arms" />
+      </div>
+    </div>
+  </header>
+  <!-- End of Header Section -->
+
+  <!-- Navigation Section -->
+  <nav id="nav" class="container-fluid">
+    <div class="nav-nir-logo">
+      <a href="index.html">
+        <img src="./assets/images/icons/nirlogo.png" width="70px" alt="NIR Logo" />
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About NIR</a>
+        <ul class="dropdown-menu fade-up">
+          <li><a class="dropdown-item" href="board-of-registrars.html">Board of Registrars</a></li>
+          <li><a class="dropdown-item" href="mamagement-team.html">Management Team</a></li>
+          <li><a class="dropdown-item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item" href="staff-directory.html">Staff Directory</a></li>
+          <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Opportunities</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li>
+        <a href="https://nin.nir.gov.lr/" target="_blank"><span>eVerication<i
+              class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+      </li>
+    </ul>
+    <span class="search-box">
+      <input type="search" placeholder="Search....">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </span>
+  </nav>
+  <!-- End of Navigation Section -->
+
+  <!-- Main Section -->
+  <main id="main">
+    <!-- Frequently Asked Question Section -->
+    <section id="questions" class="container">
+      <h1>Frequently Asked Questions about the National Identification Registry(NIR)</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ullam voluptates sequi necessitatibus
+        blanditiis, ipsa suscipit quidem dolorem aut ad eligendi voluptatum expedita doloribus placeat consequatur a,
+        explicabo at labore?</p>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <strong style="font-size: larger; margin-right: 5px;">1:</strong> What is the National Biometric
+              Identification
+              System
+              (NBIS)?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National Biometric Identification System is a program of the Government of Liberia
+              under the National
+              Identification
+              Registry (NIR) that produces the national ID card which is used as an official document to identify all
+              citizens of
+              Liberia and legal permanent foreign residents of Liberia.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong style="font-size: larger; margin-right: 5px;">2:</strong>Why introduce a National biometric
+              Identification System at this time?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National Biometric Identification System helps the Government of Liberia to:
+
+              · Reliably identify members of the population, ensure public safety, enhance the delivery of public
+              benefits and control
+              immigration
+
+              · Create an enabling environment for all Liberians and legal residents to play active role in the process
+              of national
+              development.
+
+              · Provides confidence in the business environment of Liberia by ensuring that all transactions are secure,
+              reliable, and
+              trustworthy.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong style="font-size: larger; margin-right: 5px;">3:</strong>What are the goals of the National
+              Biometric Identification System (NBIS)?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Some of the goals of NBIS are:
+
+              · To improve public confidence in our official documents and strengthen our security
+
+              · To ensure free public services are only used by those entitled to them;
+
+              · To enable easier and more convenient access to public services;
+
+              · To tackle illegal working and immigration abuse;
+
+              · To discourage the use of false and multiple identities by criminals and terrorists;
+
+              · To help protect against identity fraud
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <strong style="font-size: larger; margin-right: 5px;">4:</strong>Does the National Identification Registry
+              issue only ID cards?
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              No. The issuance of National ID is one function of NIR. Other functions include the following:
+
+              · NIR generates a random National Identification Number (NIN) that accompanies each ID card issued, and it
+              is unique to each individual.
+
+              · The NIR will help to generate population-related data/information which it will make available to
+              various agencies of government and corporate private sector for the purpose of proper planning and
+              implementation of national development agenda.
+
+              · NIR will also provides services related to personal identification matters (identification and
+              verification of IDs, etc)
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <strong style="font-size: larger; margin-right: 5px;">5:</strong>What is the National ID Card?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National ID Card is a government-issued ID that is used as an official document to identify all
+              citizens of Liberia
+              and legal permanent foreign residents of Liberia.
+
+              · The National ID card contains biometric data and other information which is basic to the individual. It
+              contains
+              security features that are unique and fake-proof.
+
+              · The ID card provides holders with an easy and secure way of demonstrating their right to live in Liberia
+              and ascertain
+              their place in the community.
+
+              · The ID card is linked to the person to whom it is issued by a unique biometric identifier. This,
+              together with more
+              traditional security checks, makes it virtually impossible to enroll into the NBIS more than once even if
+              using
+              different identity documents..
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              <strong style="font-size: larger; margin-right: 5px;">6:</strong>How useful is the National ID Card?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              · Existing methods of documenting, establishing, and verifying identity such as birth certificates,
+              driver’s licenses,
+              passports, immigration and naturalization documents, etc. are not standardized such that a government
+              inspector can
+              readily establish the genuineness of these documents. These documents are not strongly linked to the
+              bearer, leading to
+              the use of a single identity document by several people or one person using multiple versions of the same
+              identity
+              document. The national ID card, conversely, is easily verifiable using our e-verification system and it is
+              required to
+              obtain some of these identity documents listed here.
+
+              · The ID card should also be required for banking transactions. Personal details required by Banks to
+              support their Know
+              Your Customer (KYC) drive are readily available on the card. Banks can readily and reliably verify the
+              identity of a
+              customer by using our e-verification platform.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              <strong style="font-size: larger; margin-right: 5px;">7:</strong>At what age does one become eligible for
+              registration?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The minimum age at which an individual becomes eligible for registration is 6 years. This is because the
+              fingerprint
+              (widely used as a unique identifier) normally completes formation by age 6.
+
+              · The births and deaths Registry will sustain the registration process by recording births of children
+              under six years
+              of age after the NIR’s mass enrollment. The information provided by the birth and deaths Registry will be
+              used by NIR to
+              build identity information on the children under six years by issuing unique identification numbers. At
+              age six, the
+              fingerprint of the child would be taken and an ID card will be issued to the child, while the death
+              registry will be
+              useful for census purposes and acquisition of public benefits.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              <strong style="font-size: larger; margin-right: 5px;">8:</strong>Why will NIR issue National ID cards to
+              persons at the age of 6 years and above?
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Age 6 is considered the minimum lawful school age in Liberia. NIR adopted this age so that all children of
+              school going
+              age can easily be identified.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+              <strong style="font-size: larger; margin-right: 5px;">9:</strong>Will foreigners be issued with ID cards?
+            </button>
+          </h2>
+          <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              All legal, permanent resident foreigners in Liberia will be registered and issued Resident National ID
+              cards.
+
+              · Liberia is a member of the United Nations, and it is a requirement of the UN International Convention on
+              Human Rights
+              for Member Nations to protect the rights of both citizens and foreigners.
+
+              · There are foreign residents who have genuine investments or are working for international organizations
+              and
+              institutions in this country and are therefore, contributing immensely to our developmental process. These
+              people
+              deserve to be identified and protected.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+              <strong style="font-size: larger; margin-right: 5px;">10:</strong>What will NIR do about the identity
+              cards already issued by some organizations?
+            </button>
+          </h2>
+          <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The identity cards issued by organizations are just to enable them identify the members of their
+              organizations but not
+              as Liberian Citizens or Legal Resident Aliens.
+
+              · The National ID Card, however, helps to establish the true identity of the individual as a Liberian or
+              other National.
+
+              · Institutions and organizations may, therefore, issue their own employer identity cards
+
+              · The National ID Card currently serves as the only government-issued and readily verifiable identity card
+              in Liberia
+              and has a variety of uses.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEleven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+              <strong style="font-size: larger; margin-right: 5px;">11:</strong>Will it be possible to synchronize
+              numbers issued by the National Social Security & Welfare Corporation (NASSCORP) and
+              the National Elections Commission (NEC) with NIR’s National Identification Number (NIN) so as to
+              facilitate
+              transactions?
+            </button>
+          </h2>
+          <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NASSCORP and NEC have different statutory mandates. Any organization or institution may choose to
+              internally generate
+              and use its own customized ID numbers for its staff or customers.
+
+              However, NIR’s NIN assigned to each individual becomes the basis for linking the individual to every
+              transaction in the
+              public or private sectors and various organizations would have to adopt it for their business
+              transactions. NIR’s NIN
+              would be used to cross check the true identity of clients across the different sectors of the economy.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwelve">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+              <strong style="font-size: larger; margin-right: 5px;">12:</strong>What information may be held on the
+              National Identification Registry data base?
+            </button>
+          </h2>
+          <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The information that may be held on the identity cards scheme is strictly limited.
+
+              · Personal information-such as name, address, date and place of birth and biometric data- such as
+              fingerprint and
+              photograph.
+
+              · Sensitive personal information-such as medical records, religious affiliation or ethnic origin will not
+              be included.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirdteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirdteen" aria-expanded="false" aria-controls="collapseThirdteen">
+              <strong style="font-size: larger; margin-right: 5px;">13:</strong>Will personal information be opened to
+              the public?
+            </button>
+          </h2>
+          <div id="collapseThirdteen" class="accordion-collapse collapse" aria-labelledby="headingThirdteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              No. All personal information collected will be kept strictly confidential and regulated by various access
+              control
+              regimes. Such personal details may only be released upon a Court Order.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFourteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+              <strong style="font-size: larger; margin-right: 5px;">14:</strong>What measures have NIR put in place to
+              ensure that the entire system is protected from abuse?
+            </button>
+          </h2>
+          <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NIR is a security-driven organization and has put in place mechanisms to forestall unauthorized access,
+              disclosure, and
+              abuse. NIR has developed security guidelines for its staff and data Protection Regulations by which both
+              staff and
+              non-staff shall abide. NIR shall strictly enforce the guidelines and Regulations. Only authorized NIR
+              officers and those
+              granted access shall have access to different categories of data.
+              Any person who breaches the regulations shall be prosecuted according to the law. The National ID card,
+              the only
+              physical product that would be in the public domain, cannot be forged because it contains lots of security
+              features. Any
+              counterfeit card cannot be verified by our robust e-verification platform.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFifteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+              <strong style="font-size: larger; margin-right: 5px;">15:</strong>What provisions have been made to
+              prevent Governments from using the system to victimize some group of people?
+            </button>
+          </h2>
+          <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NIR DOES NOT capture an individual’s religious or political affiliations and ethnicity during the
+              registration process.
+              This makes it impossible to identify any person in the database as belonging to any particular group. In
+              addition, NIR
+              has developed data Protection Regulations that effectively limits access to the database by unauthorized
+              persons.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSixteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+              <strong style="font-size: larger; margin-right: 5px;">16:</strong>Will the National ID Card be attractive
+              to fraudsters and organized criminals?
+            </button>
+          </h2>
+          <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Yes, just as current identity documents are attractive to criminals. This is precisely the reason why NIR
+              utilizes
+              cutting-edge technology that incorporates several layers of security features to make the card
+              tamper-proof and protect
+              personal information stored on the card.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeventeen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">
+              <strong style="font-size: larger; margin-right: 5px;">17:</strong>How will NIR avoid registering
+              foreigners who enter and exit Liberia daily via the borders?
+            </button>
+          </h2>
+          <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              For registration, the individual is required to provide some identity proof such as birth
+              certificate/resident permit.
+              The individual will also be interviewed jointly by NIR staff and LIS Officers using a structured
+              questionnaire to help
+              determine eligibility.
+              · NIR will register only those foreigners who are legally permitted to reside in Liberia on a long-term
+              basis.
+
+              · Those foreigners who enter the country on a short-term basis would not be eligible to register.
+              Information about them
+              will be captured by the Liberia Immigration Service (LIS) at border entry points.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEighteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">
+              <strong style="font-size: larger; margin-right: 5px;">18:</strong>What mechanism is being put in place for
+              demarcating places and streets?
+            </button>
+          </h2>
+          <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The NIR recognizes street naming as one of the important components to establishing credible National
+              Identification
+              System. However, it is not the mandate of NIR to demarcate areas and name streets. It is the work of the
+              Ministry of
+              Public works to demarcate areas, name street and number houses.
+              However, NIR expects that each individual should endeavor to provide street names (if applicable), name of
+              community,
+              house numbers, and other address components to help them effectively complete their registration. It is
+              important that
+              we all provide accurate addresses during registration.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingNinteen">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseNinteen" aria-expanded="false" aria-controls="collapseNinteen">
+              <strong style="font-size: larger; margin-right: 5px;">19:</strong>What are the modalities in place to
+              register persons with disabilities?
+            </button>
+          </h2>
+          <div id="collapseNinteen" class="accordion-collapse collapse" aria-labelledby="headingNinteen"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NIR recognizes that there are people with different types of disabilities. In order to register them, NIR
+              is currently
+              considering including biometric technology options that will make it possible to conveniently register
+              anyone with any
+              form of disability.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwenty">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">
+              <strong style="font-size: larger; margin-right: 5px;">20:</strong>How long will it take for one to get
+              through the registration process in order to obtain the Identity Card?
+            </button>
+          </h2>
+          <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The registration process is seamless but meticulous in order to avoid double registration and or data
+              entry errors. The
+              system compares each fingerprint to millions of other fingerprints in the database to eliminate duplicates
+              and create
+              each person’s unique identity. After completing registration, it takes three (3) business days for a
+              client to receive
+              his/her card.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyOne" aria-expanded="false" aria-controls="collapseTwentyOne">
+              <strong style="font-size: larger; margin-right: 5px;">21:</strong>Given the high rate of illiteracy in the
+              country, how will NIR ensure that cad bearers easily commit their National ID
+              card numbers to memory?
+            </button>
+          </h2>
+          <div id="collapseTwentyOne" class="accordion-collapse collapse" aria-labelledby="headingTwentyOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              There is no need to memorize the number. The most important thing is to keep the card safe and produce it
+              when required
+              during various transactions.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyTwo" aria-expanded="false" aria-controls="collapseTwentyTwo">
+              <strong style="font-size: larger; margin-right: 5px;">22:</strong>How will the NIR ensure that persons who
+              deliberately change their ages are exposed?
+            </button>
+          </h2>
+          <div id="collapseTwentyTwo" class="accordion-collapse collapse" aria-labelledby="headingTwentyTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              An enrollee’s age taken at the time and point of registration shall be considered the legitimate age and
+              shall not be
+              changed afterwards. People who do not remember their birth dates shall be guided by s list of historical
+              events to
+              determine their birth dates or age.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyThree" aria-expanded="false" aria-controls="collapseTwentyThree">
+              <strong style="font-size: larger; margin-right: 5px;">23:</strong>If there is a change of address and
+              residence, how does one handle the situation?
+            </button>
+          </h2>
+          <div id="collapseTwentyThree" class="accordion-collapse collapse" aria-labelledby="headingTwentyThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The database will be updated periodically. Therefore, when one changes his/her location, it is important
+              for that person
+              to inform NIR staff at a district or regional office about such changes for the appropriate update to be
+              carried out.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyFour" aria-expanded="false" aria-controls="collapseTwentyFour">
+              <strong style="font-size: larger; margin-right: 5px;">24:</strong>Can one have his/her name change in the
+              future?
+            </button>
+          </h2>
+          <div id="collapseTwentyFour" class="accordion-collapse collapse" aria-labelledby="headingTwentyFour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Yes, but in order to do that, one has to follow prescribed procedures and provide the appropriate legal
+              documents to
+              back such a request. However, the person’s original name shall still be retained. Women, for example, will
+              have their
+              maiden names retained after marriage in addition to their husband’s names which they may want to use.
+              Retention of
+              previous names or maiden names would ease cross-referencing when the need arises.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyFive" aria-expanded="false" aria-controls="collapseTwentyFive">
+              <strong style="font-size: larger; margin-right: 5px;">25:</strong>What measures are there to prevent
+              multiple issuances of ID Cards?
+            </button>
+          </h2>
+          <div id="collapseTwentyFive" class="accordion-collapse collapse" aria-labelledby="headingTwentyFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NIR will use Automated Fingerprint Identification System (AFIS) to check duplication of information. For
+              example, one’s
+              fingerprint will be matched against tens of thousands of other fingerprints within a matter of seconds
+              (using the
+              computer) to ensure that there is no duplication before the card is issued.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentySix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentySix" aria-expanded="false" aria-controls="collapseTwentySix">
+              <strong style="font-size: larger; margin-right: 5px;">26:</strong>For how long will an individual’s
+              picture be kept in the database given that one’s facial features change with age?
+            </button>
+          </h2>
+          <div id="collapseTwentySix" class="accordion-collapse collapse" aria-labelledby="headingTwentySix"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              For now the first set of cards are renewable after five (5) years. This five-year renewal period could be
+              changed when
+              the next set of cards are being issued. This will provide an opportunity to update one’s information
+              including his/her
+              photograph.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentySeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentySeven" aria-expanded="false" aria-controls="collapseTwentySeven">
+              <strong style="font-size: larger; margin-right: 5px;">27:</strong>How can an individual’s identity be
+              determined if he/she died through accident but did not have the National ID Card at
+              the time?
+            </button>
+          </h2>
+          <div id="collapseTwentySeven" class="accordion-collapse collapse" aria-labelledby="headingTwentySeven"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The victim’s fingerprint would be taken, scanned, and cross-checked with those registered in the database
+              and his/her
+              true identity might be determined.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyEight" aria-expanded="false" aria-controls="collapseTwentyEight">
+              <strong style="font-size: larger; margin-right: 5px;">28:</strong>How will NIR help track down a person
+              who has committed a crime and run away? Will the information capture on the
+              identity card help in arresting the culprit or will NIR wait until that person is caught and the
+              fingerprint is taken
+              before coming out with the detailed information about that person?
+            </button>
+          </h2>
+          <div id="collapseTwentyEight" class="accordion-collapse collapse" aria-labelledby="headingTwentyEight"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The security agency in-charge may produce latent fingerprints of the culprit and NIR will help produce
+              probable
+              candidate for the security service to conduct further investigation. The latent prints will be matched
+              with ALL the
+              fingerprints in the database and the identity will be established. NIR could, therefore assist the
+              security agencies
+              establish the identity of the culprit.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwentyNine">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwentyNine" aria-expanded="false" aria-controls="collapseTwentyNine">
+              <strong style="font-size: larger; margin-right: 5px;">29:</strong>Will NIR fingerprint database be used by
+              the Criminal Investigation Department (CID) of The Liberia National Police?
+            </button>
+          </h2>
+          <div id="collapseTwentyNine" class="accordion-collapse collapse" aria-labelledby="headingTwentyNine"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Basically, NIR will be used for civil application purposes. However, if the police, in their
+              investigations, encounter
+              problems in establishing the identity of a crime suspect, they would be assisted by the NIR to enable them
+              solve the
+              problem.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirdty">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">
+              <strong style="font-size: larger; margin-right: 5px;">30:</strong>Suppose a person accidentally gets burnt
+              beyond recognition, will NIR undertake a DNA test to determine his/her
+              identity?
+            </button>
+          </h2>
+          <div id="collapseThirty" class="accordion-collapse collapse" aria-labelledby="headingThirdty"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              NIR currently does not include the use of DNA for identification purposes.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirdtyOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirdtyOne" aria-expanded="false" aria-controls="collapseThirdtyOne">
+              <strong style="font-size: larger; margin-right: 5px;">31:</strong>Will the ID card be used for voting
+              purposes?
+            </button>
+          </h2>
+          <div id="collapseThirdtyOne" class="accordion-collapse collapse" aria-labelledby="headingThirdtyOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National ID can be used to identify individual as citizens and therefore, it could be used to
+              establish eligibility
+              for voting purpose.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThirdtyTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThirtyTwo" aria-expanded="false" aria-controls="collapseThirtyTwo">
+              <strong style="font-size: larger; margin-right: 5px;">32:</strong>Will registration be free or attract a
+              fee?
+            </button>
+          </h2>
+          <div id="collapseThirtyTwo" class="accordion-collapse collapse" aria-labelledby="headingThirdtyTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Yes. Registration and issuance of a card currently costs Five United States Dollars (USD5) or its
+              equivalence in
+              Liberian Dollars. This price may be changed by the NIR Board of Registrars.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Frequently Asked Question Section -->
+  </main>
+  <!-- End of Main Section -->
+
+  <!-- Footer Section -->
+  <footer id="footer-section">
+    <!-- Useful Links Section -->
+    <hr>
+    <p>The information herein is the sole property of the National Identification Registry.<br> Please contact us
+      at our head office.</p>
+    <div class="useful-links">
+      <div class="useful-links-items">
+        <div class="useful-links-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>NIR HQ</span>
+          <p>Allison Street, Congo Town.<br>Behind the YWCA building.</p>
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <span>Email: </span><a class="email" href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr
+          </a>
+          <br>
+          <i class="fa-solid fa-phone"></i>
+          <span>Cell: </span>+231-770-490-759
+        </div>
+        <div class="useful-links-item">
+          <h3>Useful Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Announcements</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Act of Legislation-NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="https://nin.nir.gov.lr/"
+              target="_blank">eVerification</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="staff-directory.html">Staff Directory</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Recent Publications</h3>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/jtn1.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/zeze.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="useful-links-item">
+          <h3>Quick Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="index.html">Home</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="about.html">About NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="services.html">Our Services</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="faq.html">FAQ</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Join Our Newsletter</h3>
+          <p>Subscribe to our Newsletter. Stay up to date with <br>latest news from NIR.</p>
+          <form action="https://formspree.io/f/xyyovqya" method="POST">
+            <input type="email" name="news-letter-subcriber" placeholder="Enter Your Email Address">
+            <button>Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Useful Links Section -->
+    <div class="copy-right">
+      <div class="copy-right-text">
+        <p>&copy; 2022 NIR. All rights reserved.</p>
+        <p><em>Build & Design By: </em><a href="#"><strong>Mesheal D. Somah Sr.</strong></a></p>
+      </div>
+      <div class="copy-right-social-links">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+
+  <!-- jQuery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Bootstrap JavaScript Bundle with Popper CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Date Picker JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"
+    integrity="sha512-T/tUfKSV1bihCnd+MxKD0Hm1uBBroVYBOYSk1knyvQ9VyZJpc/ALb4P0r6ubwVPSGB2GvjeoMAJJImBG12TiaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Splidejs JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
+
+  <!-- Owl Caraousel JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- VenoBox JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js"
+    integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Waypoints JS CDS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- CounterUp JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jSignature JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/jSignature.min.js"
+    integrity="sha512-lZ7GJNAmaXw7L4bCR5ZgLFu12zSkuxHZGPJdIoAqP6lG+4eoSvwbmKvkyfauz8QyyzHGUGVHyoq/W+3gFHCLjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Modernizr JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Flash Canvas JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/flashcanvas.min.js"
+    integrity="sha512-FHZAgss3MwQeG+5czQOajoTUD8T+TKausbF/Nflz6APNsefnY2IEB94/nFmvGbgtp91a2fjLtLTaLCI6nN1I+A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main JS File -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Scroll To Top -->
+  <a href="#header" data-scroll class="dmtop global-radius"><i class="fa-solid fa-angle-up"></i></a>
+
+  <!-- CRISP Live Chat JS Link -->
+  <script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "63f32c7d-e01f-4c9b-a5b0-f396e2c72544"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+</body>
+
+</html>

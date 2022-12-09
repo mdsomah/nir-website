@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--[if IE]> 
+<script type="text/javascript" src="js/excanvas.js"></script> 
+<![endif]-->
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/icons/nirlogo.png" />
+
+  <!-- Normalize CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Tippy CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- BoxIcons CSS CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- VenoBox CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css"
+    integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Splidejs CSS CDN -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/css/themes/splide-default.min.css">
+
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/citizen-card-service.css" />
+
+  <!-- eSignayure CSS File -->
+  <link rel="stylesheet" href="./assets/css/e-signature.css">
+
+  <title>Citizen Card Services | National Identification Registry (NIR)</title>
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header id="header" class="container">
+    <div class="header-icons">
+      <div class="header-email">
+        <i class="fa-solid fa-envelope-circle-check"></i><a href="info@nir.gov.lr">info@nir.gov.lr</a>
+      </div>
+      <div class="header-phone">
+        <i class="fa-solid fa-phone"></i><span>+231881-490-759 / +231770-490-759</span>
+      </div>
+      <div class="header-location">
+        <i class="fa-solid fa-location-dot"></i><span>Allison Street, Congo Town behind the YWCA building.</span>
+      </div>
+      <div class="header-facebook">
+        <i class="fa-brands fa-facebook-square"></i>
+      </div>
+      <div class="header-linkedin">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="header-nir-logo">
+        <a href="index.html">
+          <img src="./assets/images/icons/nirlogo.png" width="100px" alt="NIR Logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h2>Republic of Liberia</h2>
+        <h3>National Identification Registry</h3>
+      </div>
+      <div id="coat-of-arms">
+        <img src="./assets/images/icons/coat-arms.png" width="150px" alt="Liberia Coat of Arms" />
+      </div>
+    </div>
+  </header>
+  <!-- End of Header Section -->
+
+  <!-- Navigation Section -->
+  <nav id="nav" class="container-fluid">
+    <div class="nav-nir-logo">
+      <a href="index.html">
+        <img src="./assets/images/icons/nirlogo.png" width="70px" alt="NIR Logo" />
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About NIR</a>
+        <ul class="dropdown-menu fade-up">
+          <li><a class="dropdown-item" href="board-of-registrars.html">Board of Registrars</a></li>
+          <li><a class="dropdown-item" href="mamagement-team.html">Management Team</a></li>
+          <li><a class="dropdown-item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item" href="staff-directory.html">Staff Directory</a></li>
+          <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Opportunities</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li>
+        <a href="https://nin.nir.gov.lr/" target="_blank"><span>eVerication<i
+              class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+      </li>
+    </ul>
+    <span class="search-box">
+      <input type="search" placeholder="Search....">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </span>
+  </nav>
+  <!-- End of Navigation Section -->
+
+  <!-- Main Section -->
+  <main>
+    <section id="citzen-card-services">
+      <div class="container">
+        <h1>Citizen Card Services</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, error sed cum unde ullam excepturi qui <br>
+          necessitatibus praesentium aspernatur, iste provident iure? Corrupti necessitatibus et harum unde dolores
+          maiores quasi.</p>
+        <div class="citzen-card-services-items">
+          <div class="citzen-card-services-item">
+            <div class="citzen-card-services-item-icon">
+              <i class="fa-solid fa-id-card"></i>
+              <h3>Citizen Card</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quasi. Temporibus eligendi
+                consequatur repellat sunt quidem maiores consectetur soluta!</p>
+            </div>
+            <div class="citzen-card-services-item-process">
+              <i class="fa-solid fa-clipboard-question"></i>
+              <h3>How To Obtain?</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iusto mollitia pariatur labore
+                officiis ipsum laboriosam illo est, enim quis doloremque ut non quisquam laborum eos aut provident?</p>
+            </div>
+            <div class="citzen-card-services-item-usage">
+              <i class="fa-solid fa-clipboard-list"></i>
+              <h3>Usage</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iusto mollitia pariatur labore
+                officiis ipsum laboriosam illo est, enim quis doloremque ut non quisquam laborum eos aut provident?</p>
+            </div>
+            <div class="citzen-card-services-item-benefits">
+              <i class="fa-solid fa-bullhorn"></i>
+              <h3>Benefits</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sed dolore iusto mollitia pariatur labore
+                officiis ipsum laboriosam illo est, enim quis doloremque ut non quisquam laborum eos aut provident?</p>
+              <div class="citzen-card-services-item-benefits-lists">
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Health</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Insurance</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Travel</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span>Pension</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3>Please fill in our online Application Form</h3>
+      </div>
+      <div class="card-type container">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quaerat ullam nisi deleniti qui, <br>
+          omnis
+          asperiores sint? Quam, provident repellendus!</p>
+        <h5>Select Form Type</h5>
+        <select id="form-options" onchange="enrollmentFormType(this)">
+          <option selected disabled>Choose Option :</option>
+          <option value="1">New Enrollment Form</option>
+          <option value="2">Replacement Form</option>
+          <option value="3">Renewal Form</option>
+        </select>
+
+        <!-- New Enrollment Form -->
+        <section id="new-enrollment" class="new-enrollment container">
+          <!-- Form Header Contents -->
+          <div class="form-header">
+            <div class="coat-of-arms">
+              <img src="./assets/images/icons/coat-arms.png" width="140px" alt="">
+            </div>
+            <div class="form-title">
+              <h5>Republic of Liberia</h5>
+              <h1>NATIONAL IDENTIFICATION REGISTRY</h1>
+              <h5>Allison Street, Congo Town, Behind the YWCA Building</h5>
+            </div>
+            <div class="nir-logo">
+              <img src="./assets/images/icons/nirlogo.png" width="100px" alt="">
+            </div>
+          </div>
+          <div class="mandatory-text">
+            <div>
+              <h3 style="color: #0575e6 !important;"><strong><em>New Enrollment Form – Citizen</em></strong></h3>
+            </div>
+            <div>
+              <h5>[* Mandatory Fields to be filled by the Applicant.]</h5>
+            </div>
+          </div>
+          <!-- Form Body Contents -->
+          <form action="https://formspree.io/f/xzbowlbl" method="POST" id="form-body" class="form-body">
+            <h5>GOL/NIR-AF-C-01</h5>
+            <div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" name="Last-Name" placeholder="Last Name" required>
+              <input type="text" name="First-Name" placeholder="First Name" required>
+              <input type="text" name="Middle-Name" placeholder="Middle Name" required>
+            </div>
+            <div>
+              <div>
+                <label for="">*Father’s Name:</label>
+              </div>
+              <input type="text" name="Father-Last-Name" placeholder="Last Name" required>
+              <input type="text" name="Father-First-Name" placeholder="First Name" required>
+              <input type="text" name="Father-Middle-Name" placeholder="Middle Name" required>
+            </div>
+            <div>
+              <div>
+                <label for="">*Mother’s Name:</label>
+              </div>
+              <input type="text" name="Mother-Last-Name" placeholder="Last Name" required>
+              <input type="text" name="Mother-First-Name" placeholder="First Name" required>
+              <input type="text" name="Mother-Middle-Name" placeholder="Middle Name" required>
+            </div>
+            <div>
+              <div>
+                <label for="">*Current Address:</label>
+              </div>
+              <input type="text" name="Town-or-City" placeholder="Street/Community">
+              <input type="text" name="Town-or-City" placeholder="City/Town">
+              <select class="county" onchange="countyLocalities(this)">
+                <option selected disabled>Select County</option>
+                <option value="1">Bomi</option>
+                <option value="2">Bong</option>
+                <option value="3">Gbarpolu</option>
+                <option value="4">Grand Bassa</option>
+                <option value="5">Grand Cape Mount</option>
+                <option value="6">Grand Gedeh</option>
+                <option value="7">Grand Kru</option>
+                <option value="8">Lofa</option>
+                <option value="9">Margibi</option>
+                <option value="10">Maryland</option>
+                <option value="11">Montserrado</option>
+                <option value="12">Nimba</option>
+                <option value="13">River Gee</option>
+                <option value="14">Rivercess</option>
+                <option value="15">Sinoe</option>
+              </select>
+              <!-- <select class="country">
+                <option selected disabled>Select Country</option>
+                <option>Liberia</option>
+                <option>America</option>
+                <option>Japan</option>
+                <option>China</option>
+                <option>Ghana</option>
+                <option>Nigeria</option>
+                <option>Ivory Coast</option>
+                <option>Guinea</option>
+              </select> -->
+            </div>
+            <div>
+              <div class="locality">
+                <span><label for="">*Electoral District #:</label></span>
+                <input id="district-number" name="Electoral-District-Number" type="text" readonly
+                  data-tippy-content="This field will be auto populated. Selct Locality!">
+                <span><label for="">Voting Center Locality:</label></span>
+                <select id="ddlselect" onchange="localityResult(this)">
+                  <option selected disabled>Select Locality</option>
+                  <option value="1">Baima</option>
+                  <option value="2">Palala</option>
+                  <option value="3">Bokay</option>
+                  <option value="4">Kin Jor</option>
+                  <option value="5">Gozohn Town</option>
+                  <option value="6">Dayblay</option>
+                  <option value="7">Betu City</option>
+                  <option value="8">Gelema</option>
+                  <option value="9">Scheiffelin</option>
+                  <option value="10">Fish Town</option>
+                  <option value="11">Johnsonville</option>
+                  <option value="12">Ganta</option>
+                </select>
+                <span><label for="">Voting Center Code:</label></span>
+                <input id="center-code" name="Voting-Center-Code" type="text" readonly>
+              </div>
+            </div>
+            <div class="radio-options">
+              <span>
+                <label for="">*Sex/Gender:</label>
+                <input type="radio" name="Gender" value="Female">Female
+                <input type="radio" name="Gender" value="Male">Male
+              </span>
+              <span>
+                <label for="">Height:</label>
+                <input type="text" name="Height">
+              </span>
+              <span>
+                <label for="">*Date of Birth:</label>
+                <input type="date" name="Birth-Day" aria-required="true">
+              </span>
+            </div>
+            <div>
+              <div>
+                <label for="">*Place of Birth:</label>
+              </div>
+              <input type="text" name="Town-or-City" placeholder="Town/City" aria-required="true">
+              <input type="text" name="County-or-State" placeholder="County/State" aria-required="true">
+              <!-- <input type="text" name="Country" placeholder="Country" aria-required="true"> -->
+              <select class="country">
+                <option selected disabled>Select Country</option>
+                <option>Liberia</option>
+                <option>America</option>
+                <option>Japan</option>
+                <option>China</option>
+                <option>Ghana</option>
+                <option>Nigeria</option>
+                <option>Ivory Coast</option>
+                <option>Guinea</option>
+              </select>
+            </div>
+            <div class="marital-status">
+              <label for="">*Marital Status:</label>
+              <span>
+                <input type="radio" name="Marital-Status" value="Single">Single
+              </span>
+              <span>
+                <input type="radio" name="Marital-Status" value="Married">Married
+              </span>
+              <span>
+                <input type="radio" name="Marital-Status" value="Separated">Separated
+              </span>
+              <span>
+                <input type="radio" name="Marital-Status" value="Divorced">Divorced
+              </span>
+              <span>
+                <input type="radio" name="Marital-Status" value="Widow">Widow(er)
+              </span>
+            </div>
+            <div class="contacts">
+              <span>
+                <label for="">Contact Number:</label>
+                <input type="tel" name="Phone-Number" placeholder="Enter Phone Number">
+              </span>
+              <span>
+                <label for="">Email Address:</label>
+                <input type="email" name="Email-Address" placeholder="Enter Email">
+              </span>
+            </div>
+            <div class="citizenship">
+              <label for="">*Do you hold citizenship of another country?:</label>
+              <span>
+                <input type="radio" name="Citizenship-Status" value="Yes">Yes
+              </span>
+              <span>
+                <input type="radio" name="Citizenship-Status" value="No">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" name="Country-of-Citizenship" placeholder="Enter Country">
+              </div>
+            </div>
+            <div class="country">
+              <label for="">*Have you resided in another country for more than 2 years?:</label>
+              <span>
+                <input type="radio" name="Country-of-Resident" value="Yes">Yes
+              </span>
+              <span>
+                <input type="radio" name="Country-of-Resident" value="No">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" name="Country-Name" placeholder="Country">
+                <input type="text" name="Status" placeholder="Status">
+              </div>
+            </div>
+            <div class="card-status-type">
+              <div>
+                <label for="">Card Type:</label>
+              </div>
+              <select>
+                <option value="" selected disabled>Select</option>
+                <option value="">National ID card</option>
+                <option value="" disabled>Resident Card</option>
+                <option value="" disabled>Ecowas Card</option>
+              </select>
+            </div>
+            <div class="document-attached">
+              <div>
+                <label for="">Documents Attached to Application Form:</label>
+              </div>
+              <span>
+                <input type="checkbox" name="Passport">Passport
+              </span>
+              <span>
+                <input type="checkbox" name="Voter-ID">Voter ID
+              </span>
+              <span>
+                <input type="checkbox" name="Birth-Certificate">Birth Certificate
+              </span>
+              <span>
+                <input type="checkbox" name="Naturalization-Certificate">Naturalization Certificate
+              </span>
+              <span>
+                <input type="checkbox" name="Others">Others
+              </span>
+              <div>
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+              </div>
+            </div>
+            <div class="introducer">
+              <div>
+                <label for="">Introducer Information <strong style="color: #000 !important;">[To be used only if
+                    requested by the NIR]:</strong></label>
+              </div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" name="Introducer-Last-Name" placeholder="Last Name">
+              <input type="text" name="Introducer-First-Name" placeholder="First Name">
+              <input type="text" name="Introducer-Middle-Name" placeholder="Middle Name">
+              <div class="introducer-contact">
+                <span>
+                  <label for="">*NIN No:</label>
+                  <input type="number" name="Introducer-NIN-Number">
+                </span>
+                <span>
+                  <label for="">Contact Number:</label>
+                  <input type="tel" name="Introducer-Phone-Number">
+                </span>
+              </div>
+            </div>
+            <div class="disclaimer">
+              <span><strong>DISCLAIMER:</strong> I hereby declare that the information provided herein are true and
+                correct to the best of my knowledge.</span>
+              <span><strong>NOTE:</strong> you could
+                be prosecuted for
+                perjury or attempt to falsify Liberian Citizenship if your information is not true and correct.</span>
+            </div>
+            <div class="signatures">
+              <span>
+                <label for="">Signed: </label>
+                <input type="text" name="Applicant’s-Signature" placeholder="Applicant’s Signature / Trumb Print">
+              </span>
+              <span>
+                <label for="">Date: </label>
+                <input type="date" name="Form-Submission-Date" placeholder="Month Day Year">
+              </span>
+              <div>
+                <div>
+                  <input type="text" name="Immigration-Officer-Signature" placeholder="Immigration Officer Signature">
+                </div>
+                <div>
+                  <input type="text" name="NIR-Officer-Signature" placeholder="NIR Officer Signature & Stamp">
+                </div>
+              </div>
+            </div>
+            <button>Submit</button>
+            <input type="reset" class="reset-form">
+          </form>
+        </section>
+        <!-- End of New Enrollment Form -->
+
+        <!-- Replacement Form -->
+        <section id="replacement" class="new-enrollment container">
+          <!-- Form Header Contents -->
+          <div class="form-header">
+            <div class="coat-of-arms">
+              <img src="./assets/images/icons/coat-arms.png" width="140px" alt="">
+            </div>
+            <div class="form-title">
+              <h5>Republic of Liberia</h5>
+              <h1>NATIONAL IDENTIFICATION REGISTRY</h1>
+              <h5>Allison Street, Congo Town, Behind the YWCA Building</h5>
+            </div>
+            <div class="nir-logo">
+              <img src="./assets/images/icons/nirlogo.png" width="100px" alt="">
+            </div>
+          </div>
+          <div class="mandatory-text">
+            <div>
+              <h3 style="color: #0575e6 !important;"><strong><em>Replacement Form – Citizen</em></strong></h3>
+            </div>
+            <div>
+              <h5>[* Mandatory Fields to be filled by the Applicant.]</h5>
+            </div>
+          </div>
+          <!-- Form Body Contents -->
+          <form class="form-body">
+            <h5>GOL/NIR-AF-C-01</h5>
+            <div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Father’s Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Mother’s Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Current Address:</label>
+              </div>
+              <input type="text" placeholder="Enter Your Current Address">
+            </div>
+            <div>
+              <div class="locality">
+                <span><label for="">*Electoral District #:</label></span>
+                <input type="text">
+                <span><label for="">Voting Center Locality:</label></span>
+                <input type="text">
+                <span><label for="">Voting Center Code:</label></span>
+                <input type="text">
+              </div>
+            </div>
+            <div class="radio-options">
+              <span>
+                <label for="">*Sex/Gender:</label>
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Male">Male
+              </span>
+              <span>
+                <label for="">Height:</label>
+                <input type="text">
+              </span>
+              <span>
+                <label for="">*Date of Birth:</label>
+                <input type="date">
+              </span>
+            </div>
+            <div>
+              <div>
+                <label for="">*Place of Birth:</label>
+              </div>
+              <input type="text" placeholder="Town/City">
+              <input type="text" placeholder="County/State">
+              <input type="text" placeholder="Country">
+            </div>
+            <div class="marital-status">
+              <label for="">*Marital Status:</label>
+              <span>
+                <input type="radio" name="status" value="Single">Single
+              </span>
+              <span>
+                <input type="radio" name="status" value="Married">Married
+              </span>
+              <span>
+                <input type="radio" name="status" value="Separated">Separated
+              </span>
+              <span>
+                <input type="radio" name="status" value="Divorced">Divorced
+              </span>
+              <span>
+                <input type="radio" name="status" value="Widow">Widow(er)
+              </span>
+            </div>
+            <div class="contacts">
+              <span>
+                <label for="">Contact Number:</label>
+                <input type="tel" placeholder="Enter Phone Number">
+              </span>
+              <span>
+                <label for="">Email Address:</label>
+                <input type="email" placeholder="Enter Email">
+              </span>
+            </div>
+            <div class="citizenship">
+              <label for="">*Do you hold citizenship of another country?:</label>
+              <span>
+                <input type="radio" nane="citizenship" value="1">Yes
+              </span>
+              <span>
+                <input type="radio" nane="citizenship" value="1">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" placeholder="Enter Country">
+              </div>
+            </div>
+            <div class="country">
+              <label for="">*Have you resided in another country for more than 2 years?:</label>
+              <span>
+                <input type="radio" name="country" value="yes">Yes
+              </span>
+              <span>
+                <input type="radio" name="country" value="no">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="Status">
+              </div>
+            </div>
+            <div class="card-status-type">
+              <div>
+                <label for="">Card Type:</label>
+              </div>
+              <select>
+                <option value="" selected>Select</option>
+                <option value="">National ID card</option>
+                <option value="">Resident Card</option>
+                <option value="">Ecowas Card</option>
+              </select>
+            </div>
+            <div class="document-attached">
+              <div>
+                <label for="">Documents Attached to Application Form:</label>
+              </div>
+              <span>
+                <input type="checkbox">Passport
+              </span>
+              <span>
+                <input type="checkbox">Voter ID
+              </span>
+              <span>
+                <input type="checkbox">Birth Certificate
+              </span>
+              <span>
+                <input type="checkbox">Naturalization Certificate
+              </span>
+              <span>
+                <input type="checkbox">Others
+              </span>
+              <div>
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+              </div>
+            </div>
+            <div class="introducer">
+              <div>
+                <label for="">Introducer Information <strong style="color: #000 !important;">[To be used only if
+                    requested by the NIR]:</strong></label>
+              </div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+              <div class="introducer-contact">
+                <span>
+                  <label for="">*NIN No:</label>
+                  <input type="number">
+                </span>
+                <span>
+                  <label for="">Contact Number:</label>
+                  <input type="tel">
+                </span>
+              </div>
+            </div>
+            <div class="disclaimer">
+              <span><strong>DISCLAIMER:</strong> I hereby declare that the information provided herein are true and
+                correct to the best of my knowledge.</span>
+              <span><strong>NOTE:</strong> you could
+                be prosecuted for
+                perjury or attempt to falsify Liberian Citizenship if your information is not true and correct.</span>
+            </div>
+            <div class="signatures">
+              <span>
+                <label for="">Signed: </label>
+                <input type="text" placeholder="Applicant’s Signature / Trumb Print">
+              </span>
+              <span>
+                <label for="">Date: </label>
+                <input type="date" placeholder="Month Day Year">
+              </span>
+              <div>
+                <div>
+                  <input type="text" placeholder="Immigration Officer Signature">
+                </div>
+                <div>
+                  <input type="text" placeholder="NIR Officer Signature & Stamp">
+                </div>
+              </div>
+            </div>
+            <button>Submit</button>
+            <input type="reset" class="reset-form">
+          </form>
+        </section>
+        <!-- End of Replacement Form -->
+
+        <!-- Renewal Form -->
+        <section id="renewal" class="new-enrollment container">
+          <!-- Form Header Contents -->
+          <div class="form-header">
+            <div class="coat-of-arms">
+              <img src="./assets/images/icons/coat-arms.png" width="140px" alt="">
+            </div>
+            <div class="form-title">
+              <h5>Republic of Liberia</h5>
+              <h1>NATIONAL IDENTIFICATION REGISTRY</h1>
+              <h5>Allison Street, Congo Town, Behind the YWCA Building</h5>
+            </div>
+            <div class="nir-logo">
+              <img src="./assets/images/icons/nirlogo.png" width="100px" alt="">
+            </div>
+          </div>
+          <div class="mandatory-text">
+            <div>
+              <h3 style="color: #0575e6 !important;"><strong><em>Renewal Form – Citizen</em></strong></h3>
+            </div>
+            <div>
+              <h5>[* Mandatory Fields to be filled by the Applicant.]</h5>
+            </div>
+          </div>
+          <!-- Form Body Contents -->
+          <form class="form-body">
+            <h5>GOL/NIR-AF-C-01</h5>
+            <div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Father’s Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Mother’s Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+            </div>
+            <div>
+              <div>
+                <label for="">*Current Address:</label>
+              </div>
+              <input type="text" placeholder="Enter Your Current Address">
+            </div>
+            <div>
+              <div class="locality">
+                <span><label for="">*Electoral District #:</label></span>
+                <input type="text">
+                <span><label for="">Voting Center Locality:</label></span>
+                <input type="text">
+                <span><label for="">Voting Center Code:</label></span>
+                <input type="text">
+              </div>
+            </div>
+            <div class="radio-options">
+              <span>
+                <label for="">*Sex/Gender:</label>
+                <input type="radio" name="gender" value="Female">Female
+                <input type="radio" name="gender" value="Male">Male
+              </span>
+              <span>
+                <label for="">Height:</label>
+                <input type="text">
+              </span>
+              <span>
+                <label for="">*Date of Birth:</label>
+                <input type="date">
+              </span>
+            </div>
+            <div>
+              <div>
+                <label for="">*Place of Birth:</label>
+              </div>
+              <input type="text" placeholder="Town/City">
+              <input type="text" placeholder="County/State">
+              <input type="text" placeholder="Country">
+            </div>
+            <div class="marital-status">
+              <label for="">*Marital Status:</label>
+              <span>
+                <input type="radio" name="status" value="Single">Single
+              </span>
+              <span>
+                <input type="radio" name="status" value="Married">Married
+              </span>
+              <span>
+                <input type="radio" name="status" value="Separated">Separated
+              </span>
+              <span>
+                <input type="radio" name="status" value="Divorced">Divorced
+              </span>
+              <span>
+                <input type="radio" name="status" value="Widow">Widow(er)
+              </span>
+            </div>
+            <div class="contacts">
+              <span>
+                <label for="">Contact Number:</label>
+                <input type="tel" placeholder="Enter Phone Number">
+              </span>
+              <span>
+                <label for="">Email Address:</label>
+                <input type="email" placeholder="Enter Email">
+              </span>
+            </div>
+            <div class="citizenship">
+              <label for="">*Do you hold citizenship of another country?:</label>
+              <span>
+                <input type="radio" nane="citizenship" value="1">Yes
+              </span>
+              <span>
+                <input type="radio" nane="citizenship" value="1">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" placeholder="Enter Country">
+              </div>
+            </div>
+            <div class="country">
+              <label for="">*Have you resided in another country for more than 2 years?:</label>
+              <span>
+                <input type="radio" name="country" value="yes">Yes
+              </span>
+              <span>
+                <input type="radio" name="country" value="no">No
+              </span>
+              <div>
+                <div>
+                  <label for="">If Yes Country Name:</label>
+                </div>
+                <input type="text" placeholder="Country">
+                <input type="text" placeholder="Status">
+              </div>
+            </div>
+            <div class="card-status-type">
+              <div>
+                <label for="">Card Type:</label>
+              </div>
+              <select>
+                <option value="" selected>Select</option>
+                <option value="">National ID card</option>
+                <option value="">Resident Card</option>
+                <option value="">Ecowas Card</option>
+              </select>
+            </div>
+            <div class="document-attached">
+              <div>
+                <label for="">Documents Attached to Application Form:</label>
+              </div>
+              <span>
+                <input type="checkbox">Passport
+              </span>
+              <span>
+                <input type="checkbox">Voter ID
+              </span>
+              <span>
+                <input type="checkbox">Birth Certificate
+              </span>
+              <span>
+                <input type="checkbox">Naturalization Certificate
+              </span>
+              <span>
+                <input type="checkbox">Others
+              </span>
+              <div>
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+                <input type="file">
+              </div>
+            </div>
+            <div class="introducer">
+              <div>
+                <label for="">Introducer Information <strong style="color: #000 !important;">[To be used only if
+                    requested by the NIR]:</strong></label>
+              </div>
+              <div>
+                <label for="">*Full Name:</label>
+              </div>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="First Name">
+              <input type="text" placeholder="Middle Name">
+              <div class="introducer-contact">
+                <span>
+                  <label for="">*NIN No:</label>
+                  <input type="number">
+                </span>
+                <span>
+                  <label for="">Contact Number:</label>
+                  <input type="tel">
+                </span>
+              </div>
+            </div>
+            <div class="disclaimer">
+              <span><strong>DISCLAIMER:</strong> I hereby declare that the information provided herein are true and
+                correct to the best of my knowledge.</span>
+              <span><strong>NOTE:</strong> you could
+                be prosecuted for
+                perjury or attempt to falsify Liberian Citizenship if your information is not true and correct.</span>
+            </div>
+            <div class="signatures">
+              <span>
+                <label for="">Signed: </label>
+                <input type="text" placeholder="Applicant’s Signature / Trumb Print">
+              </span>
+              <span>
+                <label for="">Date: </label>
+                <input type="date" placeholder="Month Day Year">
+              </span>
+              <div>
+                <div>
+                  <input type="text" placeholder="Immigration Officer Signature">
+                </div>
+                <div>
+                  <input type="text" placeholder="NIR Officer Signature & Stamp">
+                </div>
+              </div>
+            </div>
+            <button>Submit</button>
+            <input type="reset" class="reset-form">
+          </form>
+        </section>
+        <!-- End of Renewal Form -->
+      </div>
+    </section>
+  </main>
+  <!-- End of Main Section -->
+
+  <!-- Footer Section -->
+  <footer id="footer-section">
+    <!-- Useful Links Section -->
+    <hr>
+    <p>The information herein is the sole property of the National Identification Registry.<br> Please contact us
+      at our head office.</p>
+    <div class="useful-links">
+      <div class="useful-links-items">
+        <div class="useful-links-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>NIR HQ</span>
+          <p>Allison Street, Congo Town.<br>Behind the YWCA building.</p>
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <span>Email: </span><a class="email" href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr
+          </a>
+          <br>
+          <i class="fa-solid fa-phone"></i>
+          <span>Cell: </span>+231-770-490-759
+        </div>
+        <div class="useful-links-item">
+          <h3>Useful Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Announcements</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Act of Legislation-NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">eVerification</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Staff Directory</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="faq.html">FAQ</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Recent Publications</h3>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/jtn1.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/zeze.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="useful-links-item">
+          <h3>Quick Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="index.html">Home</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="about.html">About NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="services.html">Our Services</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Join Our Newsletter</h3>
+          <p>Subscribe to our Newsletter. Stay up to date with <br>latest news from NIR.</p>
+          <input type="email" placeholder="Enter Your Email Address">
+          <button>Send</button>
+        </div>
+      </div>
+    </div>
+    <!-- Useful Links Section -->
+    <div class="copy-right">
+      <div class="copy-right-text">
+        <p>&copy; 2022 NIR. All rights reserved.</p>
+        <p><em>Build & Design By: </em><a href="#"><strong>Mesheal D. Somah Sr.</strong></a></p>
+      </div>
+      <div class="copy-right-social-links">
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+
+  <!-- jQuery JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Moment JS CDN -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"
+      integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <!-- Bootstrap JavaScript Bundle with Popper JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Tippy JS CDN -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@5"></script>
+
+  <!-- Splidejs JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
+
+  <!-- Splide Auto Scroll Extension JS CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+  <!-- Owl Caraousel JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- VenoBox JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js"
+    integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Waypoints JS CDS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- CounterUp JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jSignature JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/jSignature.min.js"
+    integrity="sha512-lZ7GJNAmaXw7L4bCR5ZgLFu12zSkuxHZGPJdIoAqP6lG+4eoSvwbmKvkyfauz8QyyzHGUGVHyoq/W+3gFHCLjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Modernizr JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Flash Canvas JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/flashcanvas.min.js"
+    integrity="sha512-FHZAgss3MwQeG+5czQOajoTUD8T+TKausbF/Nflz6APNsefnY2IEB94/nFmvGbgtp91a2fjLtLTaLCI6nN1I+A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main JS File -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/form-type.js"></script>
+
+  <!-- GetButton.io widget -->
+  <!-- <script type="text/javascript">
+      (function () {
+        var options = {
+          facebook: "1231117973623077", // Facebook page ID
+          facebook_frame: true, // Open Facebook chat at frame
+          whatsapp: "+231770442816", // WhatsApp number
+          call_to_action: "Chat with us", // Call to action
+          button_color: "#008000", // Color of button
+          position: "left", // Position may be 'right' or 'left'
+          order: "whatsapp,facebook", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+    </script> -->
+  <!-- /GetButton.io widget -->
+
+  <!-- Scroll To Top -->
+  <a href="#header" data-scroll class="dmtop global-radius" data-tippy-content="Back To Top"><i
+      class="fa-solid fa-angle-up"></i></a>
+
+  <!-- CRISP Live Chat JS Link -->
+  <script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "63f32c7d-e01f-4c9b-a5b0-f396e2c72544"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+
+  <!-- AOS Animate on Scroll Initializer -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

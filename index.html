@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/images/icons/nirlogo.png" />
+
+  <!-- Normalize CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Tippy CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@5/dist/backdrop.css" />
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- BoxIcons CSS CDN -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- VenoBox CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css"
+    integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Splidejs CSS CDN -->
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/css/themes/splide-default.min.css">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+
+  <title>National Identification Registry | Autonomous Govermental Agency</title>
+</head>
+
+<body>
+  <!-- LOADER -->
+  <!-- <div id="preloader">
+    <img class="preloader" src="./assets/images/loader/heart-loading2.gif" alt="" />
+  </div> -->
+  <!-- END LOADER -->
+
+  <!-- Header Section -->
+  <header id="header" class="container">
+    <div class="header-icons">
+      <div class="header-email">
+        <i class="fa-solid fa-envelope-circle-check"></i><a
+          href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr</a>
+      </div>
+      <div class="header-phone">
+        <i class="fa-solid fa-phone"></i><span>+231-881-490-759 / +231-770-490-759</span>
+      </div>
+      <div class="header-location">
+        <i class="fa-solid fa-location-dot"></i><span>Allison Street, Congo Town, Behind the YWCA building.</span>
+      </div>
+      <div class="header-facebook">
+        <a href="https://web.facebook.com/mesheal.somah" target="_blank">
+          <i data-tippy-content="Visit Our Facebook Page" class="fa-brands fa-facebook-square"></i>
+        </a>
+      </div>
+      <div class="header-linkedin">
+        <a href="https://www.linkedin.com/in/mesheal-d-somah-sr-1b988176/" target="_blank">
+          <i data-tippy-content="Visit Our LinkedIn Page" class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+    <div class="header-logo">
+      <div class="header-nir-logo">
+        <a href="index.html">
+          <img src="./assets/images/icons/nirlogo.png" width="100px" alt="NIR Logo" />
+        </a>
+      </div>
+      <div class="header-text">
+        <h2>Republic of Liberia</h2>
+        <h3>National Identification Registry</h3>
+      </div>
+      <div id="coat-of-arms">
+        <img src="./assets/images/icons/coat-arms.png" width="150px" alt="Liberia Coat of Arms" />
+      </div>
+    </div>
+  </header>
+  <!-- End of Header Section -->
+
+  <!-- Navigation Section -->
+  <nav id="nav" class="container-fluid">
+    <div class="nav-nir-logo">
+      <a href="index.html">
+        <img src="./assets/images/icons/nirlogo.png" width="70px" alt="NIR Logo" />
+      </a>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About NIR</a>
+        <ul class="dropdown-menu fade-up">
+          <li><a class="dropdown-item" href="board-of-registrars.html">Board of Registrars</a></li>
+          <li><a class="dropdown-item" href="mamagement-team.html">Management Team</a></li>
+          <li><a class="dropdown-item" href="about.html">About Us</a></li>
+          <li><a class="dropdown-item" href="staff-directory.html">Staff Directory</a></li>
+          <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="#">Media</a></li>
+      <li><a href="#">Opportunities</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li>
+        <a href="https://nin.nir.gov.lr/" target="_blank"><span>eVerication<i
+              class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
+      </li>
+    </ul>
+    <span class="search-box">
+      <input type="search" placeholder="Search....">
+      <a href="#">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </span>
+  </nav>
+  <!-- End of Navigation Section -->
+
+  <!-- Main Section -->
+  <main id="main">
+    <!-- Splide Carousel Section -->
+    <section id="splide1" class="splide" aria-labelledby="carousel-heading">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide">
+            <div class="slide-text">
+              <h1>Citizen Card</h1>
+              <p>All Citizens at the age of Six and above are qualify to enroll to obtain the Citizen Card.</p>
+              <p>Click the Learn More button and to know how our service work in obtaining the Citizen Card.</p>
+              <button class="button"><a href="citizen-card-service.html">Learn More</a></button>
+            </div>
+            <img src="./assets/images/img/citizens-card-sharpen.png" alt="NIR Citizen Card">
+          </div>
+          <div class="splide__slide">
+            <div class="slide-text">
+              <h1>Resident Card</h1>
+              <p>Are you a permanent Resident residing in Liberia with a Resident Permit?</p>
+              <p>Click the Learn More button and learn how our service work in obtaining the Resident Card.</p>
+              <button class="button"><a href="resident-card-service.html">Learn More</a></button>
+            </div>
+            <img src="./assets/images/img/residents-card-sharpen.png" alt="NIR Resident Card">
+          </div>
+          <div class="splide__slide">
+            <div class="slide-text">
+              <h1>E-Verification</h1>
+              <p>For Institutions including Banks, Telco's, MNO, NGO, Government and Private Entities <br> that want to
+                use our Cloud
+                Platform for verifiying our Cards?</p>
+              <p>Click the Learn More button and learn how our eVerification service work.</p>
+              <button class="button"><a href="e-verification-service.html">Learn More</a></button>
+            </div>
+            <img src="./assets/images/img/e-verification.PNG" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End of Splide Carousel Section -->
+
+    <!-- Groups Account Setup Section -->
+    <section id="article" class="container" data-aos="fade-up">
+      <div class="article-emergency">
+        <i class="fa-solid fa-headset"></i>
+        <h3>Express Service</h3>
+        <p>Do you need our Card for emergency Like:</p>
+        <p>Travel, Medical, Interview, Bank Trasactions etc...</p>
+        <p>We have you cover!</p>
+        <p>Call any of the following numbers: <br> +231-881-490-759 <br> +231-770-490-759 <br> to learn about our
+          Express
+          Service.
+        </p>
+      </div>
+      <div class="article-working-hourse">
+        <i class="fa-solid fa-clock"></i>
+        <h3>Working Hours</h3>
+        <p>Monday - Friday 8:00 - 3:30 PM</p>
+        ------------------------------------
+        <p>Saturday - Closed</p>
+        ------------------------------------
+        <p>Sunday - Closed</p>
+      </div>
+      <div class="article-appointment">
+        <i class="fa-solid fa-calendar-days"></i>
+        <h3>Group Accounts</h3>
+        <p>Do you or your company have a team size of 50 employess and above?</p>
+        <p>Fill in the form and book an appointment with us, and our Mobile Team will be at your door Steps.</p>
+        <form action="https://formspree.io/f/xknyelgo" method="POST">
+          <div class="article-appointment-items">
+            <div class="article-appointment-name">
+              <input type="text" name="Full-Name" placeholder="Enter Full Name">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="article-appointment-email">
+              <input type="email" name="Email-Address" placeholder="Enter Email">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="article-appointment-phone">
+              <input type="text" name="Phone-Number" placeholder="Enter Phone Number">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="article-appointment-company">
+              <input type="text" name="Company-Name" placeholder="Enter Company Name">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <div>
+              <select name="Employess-Size" class="article-appointment-select">
+                <option>Select Employees Size</option>
+                <option>50 - 100</option>
+                <option>50 - 1000</option>
+                <option>50 - 3000</option>
+                <option>50 - 6000</option>
+                <option>50 - 8000</option>
+              </select>
+            </div>
+            <div id="datetimepicker" class="article-appointment-date input-append date">
+              <input type="date" name="Appointment-Date">
+            </div>
+            <div class="article-appointment-time">
+              <input type="time" name="Appointment-Time" value="Select Time">
+            </div>
+          </div>
+          <button>Book an Appointment</button>
+        </form>
+      </div>
+    </section>
+    <!-- End of Groups Account Setup Section -->
+
+    <!-- Services Section -->
+    <section id="our-services">
+      <div class="container">
+        <h1 data-aos="fade-up">Services</h1>
+        <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, error sed cum unde ullam
+          excepturi qui
+          necessitatibus praesentium aspernatur, iste provident iure? Corrupti necessitatibus et harum unde dolores
+          maiores quasi.</p>
+        <div class="services-items" data-aos="fade-right">
+          <div class="services-item">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Citizen Card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quasi. Temporibus eligendi
+              consequatur repellat sunt quidem maiores consectetur soluta!</p>
+            <span class="learn-more">
+              <a href="citizen-card-service.html">Learn More</a><i class="fa-solid fa-up-right-from-square"></i>
+            </span>
+          </div>
+          <div class="services-item" data-aos="fade-down">
+            <i class="fa-solid fa-id-card"></i>
+            <h3>Resident Card</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quasi. Temporibus eligendi
+              consequatur repellat sunt quidem maiores consectetur soluta!</p>
+            <span class="learn-more">
+              <a href="resident-card-service.html">Learn More</a><i class="fa-solid fa-up-right-from-square"></i>
+            </span>
+          </div>
+          <div class="services-item" data-aos="fade-left">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <h3>E-Verification</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, vero quasi. Temporibus eligendi
+              consequatur repellat sunt quidem maiores consectetur soluta!</p>
+            <span class="learn-more">
+              <a href="e-verification-service.html">Learn More</a><i class="fa-solid fa-up-right-from-square"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Services Section -->
+
+    <!-- Enrollment Number Section -->
+    <section id="enrollment-total">
+      <div class="enrollment-total-items">
+        <div class="enrollment-total-text">
+          <h1>Achiventments</h1>
+          <p>
+            Since 2017, we have been carrying on our enrollment activities with no majoy disruption to our systems.
+            And over these period of years, we were able to achieved these great numbers and still counting.
+            Our Goal is to enroll the entire population and we have the capacity to implement it!
+          </p>
+        </div>
+        <div class="enrollment-total-icons-items">
+          <div class="bg-image"></div>
+          <div class="enrollment-total-icons-item">
+            <i class="fa-solid fa-people-group"></i>
+            <br>
+            <h3 class="counter">300,000</h3><span>+</span>
+            <h5>Total Enrolled Citizens</h5>
+          </div>
+          <div class="enrollment-total-icons-item">
+            <i class="fa-solid fa-people-group"></i>
+            <br>
+            <h3 class="counter">200,000</h3><span>+</span>
+            <h5>Total Enrolled Residents</h5>
+          </div>
+          <div class="enrollment-total-icons-item">
+            <i class="fa-solid fa-people-group"></i>
+            <br>
+            <h3 class="counter">500,000</h3><span>+</span>
+            <h5>Total Enrolled Applicants</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Enrollment Number Section -->
+
+    <!-- Frequently Asked Question Section -->
+    <section id="questions" class="container">
+      <h1>Frequently Asked Questions about the National Identification Registry(NIR)</h1>
+      <p>
+        Are you a Citizen or a Permanent Resident and wanting to know about our services and how to obtain our Cards?
+      </p>
+      Review our questions and answers section below or click the Browse More button for all questions
+      or
+      inquiries
+      you may have had and see the answers to each questions.
+      <p>
+
+      </p>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              <strong style="font-size: larger; margin-right: 5px;">1:</strong>What is the National Biometric
+              Identification System (NBIS)?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National Biometric Identification System is a program of the Government of Liberia under the National
+              Identification
+              Registry (NIR) that produces the national ID card which is used as an official document to identify all
+              citizens of
+              Liberia and legal permanent foreign residents of Liberia.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <strong style="font-size: larger; margin-right: 5px;">2:</strong>Why introduce a National biometric
+              Identification System at this time?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The National Biometric Identification System helps the Government of Liberia to:
+
+              · Reliably identify members of the population, ensure public safety, enhance the delivery of public
+              benefits and control
+              immigration
+
+              · Create an enabling environment for all Liberians and legal residents to play active role in the process
+              of national
+              development.
+
+              · Provides confidence in the business environment of Liberia by ensuring that all transactions are secure,
+              reliable, and
+              trustworthy.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <strong style="font-size: larger; margin-right: 5px;">3:</strong> What are the goals of the National
+              Biometric Identification System (NBIS)?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Some of the goals of NBIS are:
+
+              · To improve public confidence in our official documents and strengthen our security
+
+              · To ensure free public services are only used by those entitled to them;
+
+              · To enable easier and more convenient access to public services;
+
+              · To tackle illegal working and immigration abuse;
+
+              · To discourage the use of false and multiple identities by criminals and terrorists;
+
+              · To help protect against identity fraud
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="button"><a href="faq.html">Browse More</a></button>
+    </section>
+    <!-- End of Frequently Asked Question Section -->
+
+    <!-- Enrollment Video Section -->
+    <section id="enrollment-video">
+      <div class="enrollment-video-process">
+        <a href="https://www.youtube.com/watch?v=Y4a_ptTqgmo" class="venobox play-btn mb-4" data-vbtype="video"
+          data-autoplay="true" data-tippy-content="Watch Enrollment Processes"></a>
+      </div>
+      <!-- <div class="enrollment-video-process">
+        <a href="./assets/videos/arene.mp4" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true">
+        </a>
+      </div> -->
+      <div class="enrollment-video-content" data-aos="zoom-in">
+        <h1>Our Enrollment Processes</h1>
+        <p>
+          Learn about our enrollment processes with each pictorial step or click the play button on the left to watch
+          it in video.
+        </p>
+        <div class="enrollment-video-content-items container">
+          <div class="enrollment-video-content-item">
+            <span>1</span>
+            <h5>Fill in Form</h5>
+            <i class="fa-solid fa-right-long"></i>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <p>Fill in our application form and provides all require doucuments for enrollment.</p>
+          </div>
+          <div class="enrollment-video-content-item">
+            <span>2</span>
+            <h5>Immigration Interview</h5>
+            <i class="fa-solid fa-right-long"></i>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <p>Sit with Immigration Officers for questions directly on your application form.</p>
+          </div>
+          <div class="enrollment-video-content-item">
+            <span>3</span>
+            <h5>NIR Officer Interview</h5>
+            <i class="fa-solid fa-turn-down"></i>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <p>Sit with NIR Officers for questions directly on your application form.</p>
+          </div>
+          <div class="enrollment-video-content-item">
+            <span>6</span>
+            <h5>Await Text for Delivery</h5>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <p>
+              Await a text message from us within three working days from the day enrollment for delivery of your Card.
+            </p>
+          </div>
+          <div id="special-icon" class="enrollment-video-content-item">
+            <span>5</span>
+            <h5>Get Enroll</h5>
+            <i class="fa-solid fa-left-long"></i>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <p>
+              Present your application form, receipt and all require documents at any of our enrollment booth and get
+              enroll.
+            </p>
+          </div>
+          <div class="enrollment-video-content-item">
+            <span>4</span>
+            <h5>Make Payment</h5>
+            <i class="fa-solid fa-left-long"></i>
+            <img src="./assets/images/img/lis.jpg" width="150px" alt="">
+            <i class="fa-solid fa-caret-left"></i>
+            <p>Visit our payment booth and make payment and get a unique receipt for enrollment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Enrollment Video Section -->
+
+    <!-- Social Proves Section -->
+    <section id="social-proves">
+      <h1>Meet Our Partners & Clients</h1>
+      <p>Our clients and Partners see us as more than a Government Agency. We build and cultivate strong relations, <br>
+        and
+        at the
+        same time
+        providing Quality and Timely services.</p>
+      <div id="splide2" class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <div class="splide__list">
+            <div class="splide__slide" data-tippy-content="Visit Aspen Medical Website">
+              <div class="splide-img">
+                <a href="https://www.aspenmedical.com/" target="_blank">
+                  <img src="./assets/images/clients/aspend.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit CDC Website">
+              <div class="splide-img">
+                <a href="https://www.cdc.gov/" target="_blank">
+                  <img src="./assets/images/clients/cdc.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Unicef Website">
+              <div class="splide-img">
+                <a href="https://www.unicef.org/" target="_blank">
+                  <img src="./assets/images/clients/unicef.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Catholic Hospital Website">
+              <div class="splide-img">
+                <a href="http://www.sjcatholichospital.com/" target="_blank">
+                  <img src="./assets/images/clients/catholic.gif" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Activa Liberia Website">
+              <div class="splide-img">
+                <a href="https://www.activa-liberia.com/" target="_blank">
+                  <img src="./assets/images/clients/activa.webp" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Petro Trade Website">
+              <div class="splide-img">
+                <a href="http://www.petrotrade.ws" target="_blank">
+                  <img src="./assets/images/clients/petro-trade.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit AUG International Website">
+              <div class="splide-img">
+                <a href="https://www.auginternational.com/" target="_blank">
+                  <img src="./assets/images/clients/aug.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Lucky Pharmacy Website">
+              <div class="splide-img">
+                <a href="https://www.luckypharmacy.org/" target="_blank">
+                  <img src="./assets/images/clients/lucky.webp" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="splide__slide" data-tippy-content="Visit Give Directly Website">
+              <div class="splide-img">
+                <a href="https://www.givedirectly.org/beta/" target="_blank">
+                  <img src="./assets/images/clients/givedirectly-inc-logo-vector.png" width="150px" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Social Proves Section -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <h1>Client's Testimonials</h1>
+        <div class="owl-carousel testimonials-carousel">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="./assets/images/testimonials/testiminial.jpg" class="testimonial-img" alt="" />
+              <h3>Saul Goodman</h3>
+              <h4>Ceo &amp; Founder</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Proin iaculis purus consequat sem cure digni ssim donec
+                porttitora entum suscipit rhoncus. Accusantium quam, ultricies
+                eget id, aliquam eget nibh et. Maecen aliquam, risus at
+                semper.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="./assets/images/testimonials/testiminial.jpg" class="testimonial-img" alt="" />
+              <h3>Sara Wilsson</h3>
+              <h4>Designer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Export tempor illum tamen malis malis eram quae irure esse
+                labore quem cillum quid cillum eram malis quorum velit fore
+                eram velit sunt aliqua noster fugiat irure amet legam anim
+                culpa.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="./assets/images/testimonials/testiminial.jpg" class="testimonial-img" alt="" />
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint
+                quorum nulla quem veniam duis minim tempor labore quem eram
+                duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="./assets/images/testimonials/testiminial.jpg" class="testimonial-img" alt="" />
+              <h3>Matt Brandon</h3>
+              <h4>Freelancer</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                multos export minim fugiat minim velit minim dolor enim duis
+                veniam ipsum anim magna sunt elit fore quem dolore labore
+                illum veniam.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="./assets/images/testimonials/testiminial.jpg" class="testimonial-img" alt="" />
+              <h3>John Larson</h3>
+              <h4>Entrepreneur</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                veniam tempor noster veniam enim culpa labore duis sunt culpa
+                nulla illum cillum fugiat legam esse veniam culpa fore nisi
+                cillum quid.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Testimonial Section -->
+
+    <!-- Images Gallery -->
+    <section id="image-gallery">
+      <div class="container">
+        <h1>Gallery of Enrollment Activities</h1>
+        <p>
+          See pictorials of some of our enrollment activities across the country. We are equip and have the capacity to
+          visit even the most remote areas with our Mobile Teams.
+        </p>
+      </div>
+      <div class="image-gallery-items">
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/Biometrics-for-healthcare-access-comes-to-the-fore-this-week-as-a-new-national-healthcare-scheme-in-Côte-dIvoire-moves-into-the-mass-sign-up-stage-e1574694617462-1024.jpg"
+            class="venobox" data-gall="image-gallery-item"><img
+              src="./assets/images/biometric-enrollment/Biometrics-for-healthcare-access-comes-to-the-fore-this-week-as-a-new-national-healthcare-scheme-in-Côte-dIvoire-moves-into-the-mass-sign-up-stage-e1574694617462-1024.jpg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/fulcrum-fbf-bioenroll-standard-portable-biometric-enrollment-kit.jpg"
+            class="venobox" data-gall="image-gallery-item"><img
+              src="./assets/images/biometric-enrollment/fulcrum-fbf-bioenroll-standard-portable-biometric-enrollment-kit.jpg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/CBN-Governor-enrols.jpg" class="venobox"
+            data-gall="image-gallery-item"><img src="./assets/images/biometric-enrollment/CBN-Governor-enrols.jpg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/Screen-Shot-2020-06-22-at-17.23.24.png" class="venobox"
+            data-gall="image-gallery-item"><img
+              src="./assets/images/biometric-enrollment/Screen-Shot-2020-06-22-at-17.23.24.png" width="330px"
+              height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/shout-it-now-enrollment-with-integrated-biometrics-fingerprint-scanners.jpg"
+            class="venobox" data-gall="image-gallery-item"><img
+              src="./assets/images/biometric-enrollment/shout-it-now-enrollment-with-integrated-biometrics-fingerprint-scanners.jpg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/Guinea-Police-1.jpeg" class="venobox"
+            data-gall="image-gallery-item"><img src="./assets/images/biometric-enrollment/Guinea-Police-1.jpeg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/Biomtrics-Africa.jpg" class="venobox"
+            data-gall="image-gallery-item"><img src="./assets/images/biometric-enrollment/Biomtrics-Africa.jpg"
+              width="330px" height="280px" alt="" loading="lazy"></a>
+        </div>
+        <div class="image-gallery-item">
+          <a href="./assets/images/biometric-enrollment/IMG_2752.jpeg" class="venobox"
+            data-gall="image-gallery-item"><img src="./assets/images/biometric-enrollment/IMG_2752.jpeg" width="330px"
+              height="280px" alt="" loading="lazy"></a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Images Gallery -->
+
+    <!-- Contact Us Section -->
+    <section id="contact">
+      <div class="contact-items">
+        <div class="contact-items-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4060021.3952601952!2d-11.697069480906203!3d6.411430705774359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xf09f803d4a9fcc1%3A0x7fd3286b32d16373!2sLiberia!5e0!3m2!1sen!2s!4v1654535208985!5m2!1sen!2s"
+            width="650" height="560" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-items-content" data-aos="fade-down">
+          <h1>Contact Us</h1>
+          <p>Fill in our Contact Form with any questions or inquiries. We would be happy to answer your
+            questions or set up
+            a meeting with you to provide more feedback.</p>
+          <form action="https://formspree.io/f/mdobjrop" method="POST" class="form-group">
+            <input type="text" name="Full-Name" class="first-input">
+            <label for="" class="first-label">Enter Full Name</label>
+            <input type="email" name="Email-Address" class="second-input">
+            <label for="" class="second-label">Enter Email</label>
+            <div class="form-group-subject">
+              <input type="text" name="Subject" class="third-input">
+              <label for="" class="third-label">Enter Subject</label>
+            </div>
+            <textarea name="Message"></textarea>
+            <label for="" class="text-area-label">Enter Message</label>
+            <button>Submit Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Us Section -->
+
+
+  </main>
+  <!-- End of Main Section -->
+
+  <!-- Footer Section -->
+  <footer id="footer-section">
+    <!-- Useful Links Section -->
+    <hr>
+    <p>The information herein is the sole property of the National Identification Registry.<br> Please contact us
+      at our Head Office.</p>
+    <div class="useful-links">
+      <div class="useful-links-items">
+        <div class="useful-links-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>NIR HQ</span>
+          <p>Allison Street, Congo Town.<br>Behind the YWCA building.</p>
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          <span>Email: </span><a class="email" href="mailto:info@nir.gov.lr?Subject=Contact Us">info@nir.gov.lr
+          </a>
+          <br>
+          <i class="fa-solid fa-phone"></i>
+          <span>Cell: </span>+231-770-490-759
+        </div>
+        <div class="useful-links-item">
+          <h3>Useful Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Announcements</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="#">Act of Legislation-NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="https://nin.nir.gov.lr/"
+              target="_blank">eVerification</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="staff-directory.html">Staff Directory</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="faq.html">FAQ</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Recent Publications</h3>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/jtn1.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+          <div class="useful-links-item-publication">
+            <div class="useful-links-item-img">
+              <img src="./assets/images/directors-img/zeze.jpg" width="100px" height="95px" alt="">
+            </div>
+            <div class="useful-links-item-content">
+              <a href="#">
+                <p>Even the all-powerful <br> Pointing has no <br> control about</p>
+              </a>
+              <span class="span-group-one">
+                <i class="fa-solid fa-calendar-days"></i>Jun 20, 2022
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="useful-links-item">
+          <h3>Quick Links</h3>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="index.html">Home</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="about.html">About NIR</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="services.html">Our Services</a></li>
+          <li><i class="fa-solid fa-chevron-right"></i><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div class="useful-links-item">
+          <h3>Join Our Newsletter</h3>
+          <p>Subscribe to our Newsletter. Stay up to date with <br>latest News from NIR.</p>
+          <form action="https://formspree.io/f/xyyovqya" method="POST">
+            <input type="email" name="News-Letter-Subcriber-Email" placeholder="Enter Your Email Address">
+            <button>Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Useful Links Section -->
+    <div class="copy-right">
+      <div class="copy-right-text">
+        <p>&copy; 2022 NIR. All rights reserved.</p>
+        <p><em>Build & Design By: </em><a href="https://www.linkedin.com/in/mesheal-d-somah-sr-1b988176/"
+            target="_blank"><strong>Mesheal D. Somah Sr.</strong></a></p>
+      </div>
+      <div class="copy-right-social-links">
+        <li><a href="https://web.facebook.com/mesheal.somah" target="_blank"><i class="fa-brands fa-facebook"
+              data-tippy-content="Visit Our Facebook Page"></i></a>
+        </li>
+        <li><a href="https://www.linkedin.com/in/mesheal-d-somah-sr-1b988176/" target="_blank"><i
+              class="fa-brands fa-linkedin" data-tippy-content="Visit Our LinkedIn Page"></i></a>
+        </li>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer Section -->
+
+  <!-- jQuery JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Moment JS CDN -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"
+    integrity="sha512-x/vqovXY/Q4b+rNjgiheBsA/vbWA3IVvsS8lkQSX1gQ4ggSJx38oI2vREZXpTzhAv6tNUaX81E7QBBzkpDQayA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+  <!-- Bootstrap JavaScript Bundle with Popper JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+  <!-- AOS Animate on Scroll CSS CDN -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Tippy JS CDN -->
+  <script src="https://unpkg.com/popper.js@1"></script>
+  <script src="https://unpkg.com/tippy.js@5"></script>
+
+  <!-- Splidejs JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.6/dist/js/splide.min.js"></script>
+
+  <!-- Splide Auto Scroll Extension JS CDN -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js"></script>
+
+  <!-- Owl Caraousel JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- VenoBox JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js"
+    integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Waypoints JS CDS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- CounterUp JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+    integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- jSignature JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/jSignature.min.js"
+    integrity="sha512-lZ7GJNAmaXw7L4bCR5ZgLFu12zSkuxHZGPJdIoAqP6lG+4eoSvwbmKvkyfauz8QyyzHGUGVHyoq/W+3gFHCLjA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Modernizr JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+    integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Flash Canvas JS CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jSignature/2.1.3/flashcanvas.min.js"
+    integrity="sha512-FHZAgss3MwQeG+5czQOajoTUD8T+TKausbF/Nflz6APNsefnY2IEB94/nFmvGbgtp91a2fjLtLTaLCI6nN1I+A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Main JS File -->
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/form-type.js"></script>
+
+  <!-- GetButton.io widget -->
+  <!-- <script type="text/javascript">
+    (function () {
+      var options = {
+        facebook: "1231117973623077", // Facebook page ID
+        facebook_frame: true, // Open Facebook chat at frame
+        whatsapp: "+231770442816", // WhatsApp number
+        call_to_action: "Chat with us", // Call to action
+        button_color: "#008000", // Color of button
+        position: "left", // Position may be 'right' or 'left'
+        order: "whatsapp,facebook", // Order of buttons
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+  </script> -->
+  <!-- /GetButton.io widget -->
+
+  <!-- Scroll To Top -->
+  <a href="#header" data-scroll class="dmtop global-radius" data-tippy-content="Back To Top"><i
+      class="fa-solid fa-angle-up"></i></a>
+
+  <!-- CRISP Live Chat JS Link -->
+  <script
+    type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "63f32c7d-e01f-4c9b-a5b0-f396e2c72544"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
+
+  <!-- AOS Animate on Scroll Initializer -->
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

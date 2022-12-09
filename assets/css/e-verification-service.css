@@ -1,0 +1,64 @@
+@import url("./main.css");
+
+
+/* Citizen's Application Form */
+#e-verification-services {
+  margin-top: 200px;
+}
+
+#e-verification-services h1 {
+  font-size: var(--h1Font);
+  color: green;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+#e-verification-services h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#e-verification-services p {
+  font-size: var(--textFont);
+  text-align: center;
+  line-height: 1.6rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+#e-verification-services .e-verification-services-items {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 350px;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item i {
+  color: green;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item h3 {
+  font-size: var(--h3Font);
+  color: #494646;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item {
+  position: relative;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item .e-verification-services-item-benefits .e-verification-services-item-benefits-lists {
+  text-align: start;
+  position: absolute;
+  left: 808px;
+}
+
+#e-verification-services .e-verification-services-items .e-verification-services-item .e-verification-services-item-benefits .e-verification-services-item-benefits-lists i {
+  font-size: 18px;
+}

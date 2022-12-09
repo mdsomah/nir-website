@@ -1,0 +1,71 @@
+@import url("./main.css");
+
+#board {
+  margin-top: 200px;
+}
+
+#board h3 {
+  font-size: var(--h3Font);
+  text-align: center;
+  color: green;
+}
+
+#board .board-chairs {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-row: auto;
+  text-align: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+#board .board-chairs .board-chairs-member img {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: 2px solid #0575e6;
+  transition: all ease-in-out 0.4s;
+}
+
+#board .board-chairs .board-chairs-member img:hover {
+  transform: scale(1.2);
+}
+
+#board .board-chairs .board-chairs-member h3 {
+  font-size: var(h3Font);
+  color: green;
+  margin-top: 30px;
+}
+
+#board .board-chairs .board-chairs-member h5 {
+  font-size: var(h5Font);
+}
+
+#board .board-members {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: auto;
+  text-align: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+#board .board-members .board-members-member img {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  outline: 2px solid #0575e6;
+  transition: all ease-in-out 0.4s;
+}
+
+#board .board-members .board-members-member img:hover {
+  transform: scale(1.2);
+}
+
+#board .board-members .board-members-member h3 {
+  font-size: var(h3Font);
+  color: green;
+  margin-top: 30px;
+}
+
+#board .board-members .board-members-member h5 {
+  font-size: var(h5Font);
+}

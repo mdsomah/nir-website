@@ -1,0 +1,134 @@
+@import url("./main.css");
+
+/* About Section */
+#about {
+  margin-top: 150px;
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+#about .about-items .about-item {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#about .about-items .about-item .about-img {
+  width: 100%;
+  height: 700px;
+  background: url("../images/img/nir-office.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+}
+
+#about .about-items .about-item .about-content {
+  width: 100%;
+  text-align: center;
+  padding: 0 40px;
+  margin-top: 30px;
+}
+
+#about .about-items .about-item .about-content h1 {
+  font-size: var(--h1Font);
+  color: green;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+#about .about-items .about-item .about-content h3 {
+  font-size: var(--h3Font);
+  color: #0575e6;
+  margin-top: 30px;
+}
+
+#about .about-items .about-item .about-content p {
+  font-size: var(--textFont);
+  margin-top: 30px;
+  color: #8d8989;
+  line-height: 1.6rem;
+}
+
+#about .about-items .about-item .about-content h5 {
+  font-size: var(--h5Font);
+  margin-top: 30px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+#about .about-items .about-item .about-content h5+p {
+  position: relative;
+  left: 10px;
+}
+
+#about .about-items .about-item .about-content .strong {
+  margin-top: 60px;
+}
+
+/* End of About Section */
+
+/* Branches Section */
+.branches {
+  margin-top: 100px;
+  overflow: hidden;
+}
+
+.branches .section-title h2 {
+  font-size: var(--h2Font);
+  color: green;
+}
+
+.branches .nav-tabs {
+  border: 0;
+}
+
+/* .branches .scroll-item {
+  position: fixed;
+  top: 0;
+  overflow-y: scroll;
+} */
+
+.branches .nav-link {
+  border: 0;
+  padding: 12px 15px 12px 0;
+  transition: 0.3s;
+  color: #8d8989;
+  border-radius: 0;
+  border-right: 2px solid #ebf1f6;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.branches .nav-link:hover {
+  color: green;
+}
+
+.branches .nav-link.active {
+  color: green;
+  border-color: green;
+}
+
+.branches .tab-pane.active {
+  -webkit-animation: fadeIn 0.5s ease-out;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.branches .details h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #8d8989;
+}
+
+.branches .details p {
+  color: var(--textFont);
+}
+
+.branches .details p:last-child {
+  margin-bottom: 0;
+}
+
+/* End of Branches section */
